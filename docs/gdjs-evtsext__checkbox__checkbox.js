@@ -353,7 +353,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Checkbo
 gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.condition0IsTrue_0;
-gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10283652);
+gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(8897004);
 }
 }if (gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
 /* Reuse gdjs.evtsExt__Checkbox__Checkbox.Checkbox.prototype.doStepPostEventsContext.GDObjectObjects3 */
