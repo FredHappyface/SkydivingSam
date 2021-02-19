@@ -95,7 +95,7 @@ gdjs.GameOverCode.conditionTrue_1.val = true && gdjs.GameOverCode.condition0IsTr
 gdjs.GameOverCode.condition0IsTrue_0.val = false;
 {
 {gdjs.GameOverCode.conditionTrue_1 = gdjs.GameOverCode.condition0IsTrue_0;
-gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7630532);
+gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10017004);
 }
 }if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.GameOverCode.GDHSObjects1);

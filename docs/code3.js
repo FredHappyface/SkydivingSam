@@ -1,32 +1,44 @@
-gdjs.AboutCode = {};
-gdjs.AboutCode.GDBG_95lvl0Objects1= [];
-gdjs.AboutCode.GDBG_95lvl0Objects2= [];
-gdjs.AboutCode.GDBackObjects1= [];
-gdjs.AboutCode.GDBackObjects2= [];
-gdjs.AboutCode.GDTitleObjects1= [];
-gdjs.AboutCode.GDTitleObjects2= [];
+gdjs.CreditsCode = {};
+gdjs.CreditsCode.GDBG_95lvl0Objects1= [];
+gdjs.CreditsCode.GDBG_95lvl0Objects2= [];
+gdjs.CreditsCode.GDBackObjects1= [];
+gdjs.CreditsCode.GDBackObjects2= [];
+gdjs.CreditsCode.GDTitleObjects1= [];
+gdjs.CreditsCode.GDTitleObjects2= [];
+gdjs.CreditsCode.GDGeneralObjects1= [];
+gdjs.CreditsCode.GDGeneralObjects2= [];
+gdjs.CreditsCode.GDKennyObjects1= [];
+gdjs.CreditsCode.GDKennyObjects2= [];
+gdjs.CreditsCode.GDFiraCodeObjects1= [];
+gdjs.CreditsCode.GDFiraCodeObjects2= [];
+gdjs.CreditsCode.GDFredHappyfaceObjects1= [];
+gdjs.CreditsCode.GDFredHappyfaceObjects2= [];
+gdjs.CreditsCode.GDKieranObjects1= [];
+gdjs.CreditsCode.GDKieranObjects2= [];
+gdjs.CreditsCode.GDSoundimageObjects1= [];
+gdjs.CreditsCode.GDSoundimageObjects2= [];
 
-gdjs.AboutCode.conditionTrue_0 = {val:false};
-gdjs.AboutCode.condition0IsTrue_0 = {val:false};
-gdjs.AboutCode.condition1IsTrue_0 = {val:false};
-gdjs.AboutCode.condition2IsTrue_0 = {val:false};
+gdjs.CreditsCode.conditionTrue_0 = {val:false};
+gdjs.CreditsCode.condition0IsTrue_0 = {val:false};
+gdjs.CreditsCode.condition1IsTrue_0 = {val:false};
+gdjs.CreditsCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.AboutCode.mapOfGDgdjs_46AboutCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.AboutCode.GDBackObjects1});gdjs.AboutCode.eventsList0 = function(runtimeScene) {
+gdjs.CreditsCode.mapOfGDgdjs_46CreditsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.CreditsCode.GDBackObjects1});gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.AboutCode.GDBackObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.CreditsCode.GDBackObjects1);
 
-gdjs.AboutCode.condition0IsTrue_0.val = false;
-gdjs.AboutCode.condition1IsTrue_0.val = false;
+gdjs.CreditsCode.condition0IsTrue_0.val = false;
+gdjs.CreditsCode.condition1IsTrue_0.val = false;
 {
-gdjs.AboutCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.AboutCode.mapOfGDgdjs_46AboutCode_46GDBackObjects1Objects, runtimeScene, true, false);
-}if ( gdjs.AboutCode.condition0IsTrue_0.val ) {
+gdjs.CreditsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.CreditsCode.mapOfGDgdjs_46CreditsCode_46GDBackObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.CreditsCode.condition0IsTrue_0.val ) {
 {
-gdjs.AboutCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.CreditsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }}
-if (gdjs.AboutCode.condition1IsTrue_0.val) {
+if (gdjs.CreditsCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }}
 
@@ -35,19 +47,31 @@ if (gdjs.AboutCode.condition1IsTrue_0.val) {
 
 };
 
-gdjs.AboutCode.func = function(runtimeScene) {
+gdjs.CreditsCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.AboutCode.GDBG_95lvl0Objects1.length = 0;
-gdjs.AboutCode.GDBG_95lvl0Objects2.length = 0;
-gdjs.AboutCode.GDBackObjects1.length = 0;
-gdjs.AboutCode.GDBackObjects2.length = 0;
-gdjs.AboutCode.GDTitleObjects1.length = 0;
-gdjs.AboutCode.GDTitleObjects2.length = 0;
+gdjs.CreditsCode.GDBG_95lvl0Objects1.length = 0;
+gdjs.CreditsCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.CreditsCode.GDBackObjects1.length = 0;
+gdjs.CreditsCode.GDBackObjects2.length = 0;
+gdjs.CreditsCode.GDTitleObjects1.length = 0;
+gdjs.CreditsCode.GDTitleObjects2.length = 0;
+gdjs.CreditsCode.GDGeneralObjects1.length = 0;
+gdjs.CreditsCode.GDGeneralObjects2.length = 0;
+gdjs.CreditsCode.GDKennyObjects1.length = 0;
+gdjs.CreditsCode.GDKennyObjects2.length = 0;
+gdjs.CreditsCode.GDFiraCodeObjects1.length = 0;
+gdjs.CreditsCode.GDFiraCodeObjects2.length = 0;
+gdjs.CreditsCode.GDFredHappyfaceObjects1.length = 0;
+gdjs.CreditsCode.GDFredHappyfaceObjects2.length = 0;
+gdjs.CreditsCode.GDKieranObjects1.length = 0;
+gdjs.CreditsCode.GDKieranObjects2.length = 0;
+gdjs.CreditsCode.GDSoundimageObjects1.length = 0;
+gdjs.CreditsCode.GDSoundimageObjects2.length = 0;
 
-gdjs.AboutCode.eventsList0(runtimeScene);
+gdjs.CreditsCode.eventsList0(runtimeScene);
 return;
 
 }
 
-gdjs['AboutCode'] = gdjs.AboutCode;
+gdjs['CreditsCode'] = gdjs.CreditsCode;

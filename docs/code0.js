@@ -13,8 +13,10 @@ gdjs.MainMenuCode.GDTtileObjects1= [];
 gdjs.MainMenuCode.GDTtileObjects2= [];
 gdjs.MainMenuCode.GDVersionObjects1= [];
 gdjs.MainMenuCode.GDVersionObjects2= [];
-gdjs.MainMenuCode.GDAboutObjects1= [];
-gdjs.MainMenuCode.GDAboutObjects2= [];
+gdjs.MainMenuCode.GDCreditsObjects1= [];
+gdjs.MainMenuCode.GDCreditsObjects2= [];
+gdjs.MainMenuCode.GDHSObjects1= [];
+gdjs.MainMenuCode.GDHSObjects2= [];
 
 gdjs.MainMenuCode.conditionTrue_0 = {val:false};
 gdjs.MainMenuCode.condition0IsTrue_0 = {val:false};
@@ -28,7 +30,7 @@ gdjs.MainMenuCode.condition2IsTrue_1 = {val:false};
 gdjs.MainMenuCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDLevelsObjects1Objects = Hashtable.newFrom({"Levels": gdjs.MainMenuCode.GDLevelsObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDEndlessObjects1Objects = Hashtable.newFrom({"Endless": gdjs.MainMenuCode.GDEndlessObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDAchievementsObjects1Objects = Hashtable.newFrom({"Achievements": gdjs.MainMenuCode.GDAchievementsObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDOptionsObjects1Objects = Hashtable.newFrom({"Options": gdjs.MainMenuCode.GDOptionsObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDAboutObjects1Objects = Hashtable.newFrom({"About": gdjs.MainMenuCode.GDAboutObjects1});gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
+gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDLevelsObjects1Objects = Hashtable.newFrom({"Levels": gdjs.MainMenuCode.GDLevelsObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDEndlessObjects1Objects = Hashtable.newFrom({"Endless": gdjs.MainMenuCode.GDEndlessObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDAchievementsObjects1Objects = Hashtable.newFrom({"Achievements": gdjs.MainMenuCode.GDAchievementsObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDOptionsObjects1Objects = Hashtable.newFrom({"Options": gdjs.MainMenuCode.GDOptionsObjects1});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDCreditsObjects1Objects = Hashtable.newFrom({"Credits": gdjs.MainMenuCode.GDCreditsObjects1});gdjs.MainMenuCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -130,13 +132,13 @@ if (gdjs.MainMenuCode.condition2IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("About"), gdjs.MainMenuCode.GDAboutObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Credits"), gdjs.MainMenuCode.GDCreditsObjects1);
 
 gdjs.MainMenuCode.condition0IsTrue_0.val = false;
 gdjs.MainMenuCode.condition1IsTrue_0.val = false;
 gdjs.MainMenuCode.condition2IsTrue_0.val = false;
 {
-gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDAboutObjects1Objects, runtimeScene, true, false);
+gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDCreditsObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.MainMenuCode.condition0IsTrue_0.val ) {
 {
 gdjs.MainMenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
@@ -146,7 +148,7 @@ gdjs.MainMenuCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }}
 }
 if (gdjs.MainMenuCode.condition2IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "About", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Credits", false);
 }}
 
 }
@@ -175,6 +177,24 @@ gdjs.MainMenuCode.conditionTrue_1.val = true && gdjs.MainMenuCode.condition0IsTr
 }
 
 
+{
+
+
+gdjs.MainMenuCode.condition0IsTrue_0.val = false;
+{
+{gdjs.MainMenuCode.conditionTrue_1 = gdjs.MainMenuCode.condition0IsTrue_0;
+gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10525836);
+}
+}if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.MainMenuCode.GDHSObjects1);
+{for(var i = 0, len = gdjs.MainMenuCode.GDHSObjects1.length ;i < len;++i) {
+    gdjs.MainMenuCode.GDHSObjects1[i].setString("[HS:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("endless")) + "]");
+}
+}}
+
+}
+
+
 };
 
 gdjs.MainMenuCode.func = function(runtimeScene) {
@@ -194,8 +214,10 @@ gdjs.MainMenuCode.GDTtileObjects1.length = 0;
 gdjs.MainMenuCode.GDTtileObjects2.length = 0;
 gdjs.MainMenuCode.GDVersionObjects1.length = 0;
 gdjs.MainMenuCode.GDVersionObjects2.length = 0;
-gdjs.MainMenuCode.GDAboutObjects1.length = 0;
-gdjs.MainMenuCode.GDAboutObjects2.length = 0;
+gdjs.MainMenuCode.GDCreditsObjects1.length = 0;
+gdjs.MainMenuCode.GDCreditsObjects2.length = 0;
+gdjs.MainMenuCode.GDHSObjects1.length = 0;
+gdjs.MainMenuCode.GDHSObjects2.length = 0;
 
 gdjs.MainMenuCode.eventsList0(runtimeScene);
 return;

@@ -5,6 +5,8 @@ gdjs.AchievementsCode.GDBackObjects1= [];
 gdjs.AchievementsCode.GDBackObjects2= [];
 gdjs.AchievementsCode.GDTitleObjects1= [];
 gdjs.AchievementsCode.GDTitleObjects2= [];
+gdjs.AchievementsCode.GDAchievementsBoardObjects1= [];
+gdjs.AchievementsCode.GDAchievementsBoardObjects2= [];
 
 gdjs.AchievementsCode.conditionTrue_0 = {val:false};
 gdjs.AchievementsCode.condition0IsTrue_0 = {val:false};
@@ -44,6 +46,8 @@ gdjs.AchievementsCode.GDBackObjects1.length = 0;
 gdjs.AchievementsCode.GDBackObjects2.length = 0;
 gdjs.AchievementsCode.GDTitleObjects1.length = 0;
 gdjs.AchievementsCode.GDTitleObjects2.length = 0;
+gdjs.AchievementsCode.GDAchievementsBoardObjects1.length = 0;
+gdjs.AchievementsCode.GDAchievementsBoardObjects2.length = 0;
 
 gdjs.AchievementsCode.eventsList0(runtimeScene);
 return;

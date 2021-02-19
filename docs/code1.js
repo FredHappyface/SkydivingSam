@@ -45,6 +45,20 @@ gdjs.LevelSelectCode.GDhs_95lvl0Objects1= [];
 gdjs.LevelSelectCode.GDhs_95lvl0Objects2= [];
 gdjs.LevelSelectCode.GDTitleObjects1= [];
 gdjs.LevelSelectCode.GDTitleObjects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl3Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl3Objects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl4Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl4Objects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl5Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl5Objects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl6Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl6Objects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl7Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl7Objects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl8Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl8Objects2= [];
+gdjs.LevelSelectCode.GDlocked_95lvl2Objects1= [];
+gdjs.LevelSelectCode.GDlocked_95lvl2Objects2= [];
 
 gdjs.LevelSelectCode.conditionTrue_0 = {val:false};
 gdjs.LevelSelectCode.condition0IsTrue_0 = {val:false};
@@ -75,7 +89,7 @@ gdjs.LevelSelectCode.mapOfGDgdjs_46LevelSelectCode_46GDBackObjects1Objects = Has
 gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9805908);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10533724);
 }
 }if (gdjs.LevelSelectCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("hs_lvl0"), gdjs.LevelSelectCode.GDhs_95lvl0Objects1);
@@ -113,6 +127,286 @@ gdjs.copyArray(runtimeScene.getObjects("hs_lvl8"), gdjs.LevelSelectCode.GDhs_95l
 }
 }{for(var i = 0, len = gdjs.LevelSelectCode.GDhs_95lvl8Objects1.length ;i < len;++i) {
     gdjs.LevelSelectCode.GDhs_95lvl8Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("8")));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10154844);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("1")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl2"), gdjs.LevelSelectCode.GDlocked_95lvl2Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl2Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl2Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9885372);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("2")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl3"), gdjs.LevelSelectCode.GDlocked_95lvl3Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl3Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl3Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10135156);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("3")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl4"), gdjs.LevelSelectCode.GDlocked_95lvl4Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl4Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl4Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10397132);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("4")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl5"), gdjs.LevelSelectCode.GDlocked_95lvl5Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl5Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl5Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10105516);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("5")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl6"), gdjs.LevelSelectCode.GDlocked_95lvl6Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl6Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl6Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10081156);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("6")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl7"), gdjs.LevelSelectCode.GDlocked_95lvl7Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl7Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl7Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10050644);
+}
+}if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition1IsTrue_0;
+gdjs.LevelSelectCode.condition0IsTrue_1.val = false;
+gdjs.LevelSelectCode.condition1IsTrue_1.val = false;
+{
+gdjs.LevelSelectCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("7")) > 0;
+if( gdjs.LevelSelectCode.condition0IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.LevelSelectCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+if( gdjs.LevelSelectCode.condition1IsTrue_1.val ) {
+    gdjs.LevelSelectCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
+}}
+if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("locked_lvl8"), gdjs.LevelSelectCode.GDlocked_95lvl8Objects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl8Objects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDlocked_95lvl8Objects1[i].hide();
 }
 }}
 
@@ -621,6 +915,20 @@ gdjs.LevelSelectCode.GDhs_95lvl0Objects1.length = 0;
 gdjs.LevelSelectCode.GDhs_95lvl0Objects2.length = 0;
 gdjs.LevelSelectCode.GDTitleObjects1.length = 0;
 gdjs.LevelSelectCode.GDTitleObjects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl3Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl3Objects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl4Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl4Objects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl5Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl5Objects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl6Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl6Objects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl7Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl7Objects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl8Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl8Objects2.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl2Objects1.length = 0;
+gdjs.LevelSelectCode.GDlocked_95lvl2Objects2.length = 0;
 
 gdjs.LevelSelectCode.eventsList0(runtimeScene);
 return;
