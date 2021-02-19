@@ -733,6 +733,15 @@
         "name": "assets\\game\\bg\\bg_lvl8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/about/back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\about\\back.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6856,7 +6865,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\options\\back.png",
+                      "image": "assets\\about\\back.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7394,7 +7403,7 @@
               "name": "Checkbox",
               "type": "Checkbox::Checkbox",
               "Checked": false,
-              "PrimaryColor": "24;119;211",
+              "PrimaryColor": "136;75;250",
               "SecondaryColor": "255;255;255",
               "SideLength": 18,
               "LineWidth": 5,
@@ -7432,7 +7441,7 @@
               "name": "Checkbox",
               "type": "Checkbox::Checkbox",
               "Checked": false,
-              "PrimaryColor": "24;119;211",
+              "PrimaryColor": "136;75;250",
               "SecondaryColor": "255;255;255",
               "SideLength": 18,
               "LineWidth": 5,
@@ -7470,7 +7479,7 @@
               "name": "Checkbox",
               "type": "Checkbox::Checkbox",
               "Checked": false,
-              "PrimaryColor": "24;119;211",
+              "PrimaryColor": "136;75;250",
               "SecondaryColor": "255;255;255",
               "SideLength": 18,
               "LineWidth": 5,
@@ -7508,7 +7517,7 @@
               "name": "Checkbox",
               "type": "Checkbox::Checkbox",
               "Checked": false,
-              "PrimaryColor": "24;119;211",
+              "PrimaryColor": "136;75;250",
               "SecondaryColor": "255;255;255",
               "SideLength": 18,
               "LineWidth": 5,
@@ -7548,7 +7557,7 @@
               "ThumbShape": "rectangle",
               "ThumbWidth": 20,
               "ThumbHeight": 20,
-              "ThumbColor": " 24;119;211",
+              "ThumbColor": "136;75;250",
               "ThumbOpacity": 255,
               "TrackWidth": 600,
               "TrackHeight": 4,
@@ -7593,7 +7602,7 @@
               "ThumbShape": "rectangle",
               "ThumbWidth": 20,
               "ThumbHeight": 20,
-              "ThumbColor": " 24;119;211",
+              "ThumbColor": "136;75;250",
               "ThumbOpacity": 255,
               "TrackWidth": 600,
               "TrackHeight": 4,
