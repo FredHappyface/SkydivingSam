@@ -57,7 +57,7 @@ gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDBackObjects1Objects = Hashtable.n
 gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition0IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8713668);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9720012);
 }
 }if (gdjs.OptionsCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("AudioSlider"), gdjs.OptionsCode.GDAudioSliderObjects1);
@@ -83,7 +83,7 @@ gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 }if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8719404);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9721540);
 }
 }}
 if (gdjs.OptionsCode.condition1IsTrue_0.val) {
@@ -106,7 +106,7 @@ gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 }if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8720564);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9722220);
 }
 }}
 if (gdjs.OptionsCode.condition1IsTrue_0.val) {
@@ -129,16 +129,13 @@ gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 }if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8721836);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9723412);
 }
 }}
 if (gdjs.OptionsCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("AllLevelsBool"), gdjs.OptionsCode.GDAllLevelsBoolObjects1);
 {for(var i = 0, len = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length ;i < len;++i) {
     gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").SetDisabled(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -155,7 +152,7 @@ gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 }if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8723572);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9724660);
 }
 }}
 if (gdjs.OptionsCode.condition1IsTrue_0.val) {
@@ -351,11 +348,27 @@ for(var i = 0, k = 0, l = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length;i<l;++
     }
 }
 gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.OptionsCode.GDAllLevelsBoolObjects1 */
 {runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels").setNumber(1);
-}{for(var i = 0, len = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").SetDisabled(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
 }
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("AllLevelsBool"), gdjs.OptionsCode.GDAllLevelsBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDAllLevelsBoolObjects1[k] = gdjs.OptionsCode.GDAllLevelsBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels").setNumber(0);
 }}
 
 }

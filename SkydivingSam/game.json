@@ -794,43 +794,43 @@
       "children": [
         {
           "name": "0",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "1",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "2",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "3",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "4",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "5",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "6",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "7",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "8",
-          "value": "-1"
+          "value": "0"
         },
         {
           "name": "endless",
-          "value": "-1"
+          "value": "0"
         }
       ]
     },
@@ -910,6 +910,47 @@
         },
         {
           "name": "UnlockAllLevels",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "LevelCompleted",
+      "children": [
+        {
+          "name": "0",
+          "value": "0"
+        },
+        {
+          "name": "1",
+          "value": "0"
+        },
+        {
+          "name": "2",
+          "value": "0"
+        },
+        {
+          "name": "3",
+          "value": "0"
+        },
+        {
+          "name": "4",
+          "value": "0"
+        },
+        {
+          "name": "5",
+          "value": "0"
+        },
+        {
+          "name": "6",
+          "value": "0"
+        },
+        {
+          "name": "7",
+          "value": "0"
+        },
+        {
+          "name": "8",
           "value": "0"
         }
       ]
@@ -1265,7 +1306,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(b_02.18)",
+          "string": "(b_02.19)",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 20,
           "color": {
@@ -1944,6 +1985,294 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "66ed4b93-8632-4c8a-9717-3d5f17115112",
+          "width": 0,
+          "x": 110,
+          "y": 220,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "4737e7fa-739f-4d8d-a377-36af67d43c19",
+          "width": 0,
+          "x": 320,
+          "y": 220,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "fa71aedf-fc27-44f9-819f-8410e8f189a1",
+          "width": 0,
+          "x": 530,
+          "y": 219,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "a27ad43a-b08d-41db-b263-e02fda7a23c1",
+          "width": 0,
+          "x": 320,
+          "y": 370,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "0a897391-3bdc-4f7d-804a-d72f772c4333",
+          "width": 0,
+          "x": 320,
+          "y": 520,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "95dc0681-6ec1-426e-8d0b-5be52784c71c",
+          "width": 0,
+          "x": 530,
+          "y": 370,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs",
+          "persistentUuid": "86fb99a8-0465-4361-baaa-ac061c909327",
+          "width": 0,
+          "x": 530,
+          "y": 520,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_light",
+          "persistentUuid": "0119f803-152c-4fba-a08d-9260e7b91055",
+          "width": 0,
+          "x": 110,
+          "y": 370,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_light",
+          "persistentUuid": "69c44833-bb0b-4449-a93a-2a07c706aa04",
+          "width": 0,
+          "x": 110,
+          "y": 520,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl0",
+          "persistentUuid": "6366336d-5a27-47c6-ae10-28034647a670",
+          "width": 0,
+          "x": 235,
+          "y": 220,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl1",
+          "persistentUuid": "2db7557f-2d57-44f4-bb4f-31cf8b93bfce",
+          "width": 0,
+          "x": 447,
+          "y": 220,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl2",
+          "persistentUuid": "8d188b0a-fc9c-47f0-a438-8e81d0bcea8d",
+          "width": 0,
+          "x": 659,
+          "y": 220,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl3",
+          "persistentUuid": "b004a4b7-289c-4561-988d-06d07f99cfc7",
+          "width": 0,
+          "x": 235,
+          "y": 370,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl4",
+          "persistentUuid": "57aa3165-6050-4dd0-8b11-7000f7d6de68",
+          "width": 0,
+          "x": 442,
+          "y": 370,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl5",
+          "persistentUuid": "2dfbe11e-2cee-4fec-8ff0-60aa891d96ee",
+          "width": 0,
+          "x": 653,
+          "y": 370,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl6",
+          "persistentUuid": "8098a7e6-04f6-4158-8e8c-08c4c51d8479",
+          "width": 0,
+          "x": 235,
+          "y": 520,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl7",
+          "persistentUuid": "875c35f2-e6d0-4b9a-ad8e-7500d6574434",
+          "width": 0,
+          "x": 439,
+          "y": 520,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "hs_lvl8",
+          "persistentUuid": "a9367fa1-cd05-473c-80a0-ac101b51574e",
+          "width": 0,
+          "x": 659,
+          "y": 520,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2340,6 +2669,215 @@
         {
           "bold": true,
           "italic": false,
+          "name": "hs_light",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "High Score: ",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "High Score: ",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl8",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl7",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl6",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl5",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl4",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "hs_lvl0",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "000",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 18,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
           "name": "Title",
           "smoothed": true,
           "tags": "",
@@ -2358,6 +2896,162 @@
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Init",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl0",
+                "=",
+                "GlobalVariableString(HighScores.0)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl1",
+                "=",
+                "GlobalVariableString(HighScores.1)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl2",
+                "=",
+                "GlobalVariableString(HighScores.2)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl3",
+                "=",
+                "GlobalVariableString(HighScores.3)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl4",
+                "=",
+                "GlobalVariableString(HighScores.4)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl5",
+                "=",
+                "GlobalVariableString(HighScores.5)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl6",
+                "=",
+                "GlobalVariableString(HighScores.6)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl7",
+                "=",
+                "GlobalVariableString(HighScores.7)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "hs_lvl8",
+                "=",
+                "GlobalVariableString(HighScores.8)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Buttons",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2696,6 +3390,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.1",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -2790,6 +3517,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.2",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -2884,6 +3644,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.3",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -2978,6 +3771,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.4",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -3072,6 +3898,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.5",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -3166,6 +4025,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.6",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -3260,6 +4152,39 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelCompleted.7",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Options.UnlockAllLevels",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -3464,6 +4389,14 @@
         {
           "name": "Health",
           "value": "0"
+        },
+        {
+          "name": "Debug",
+          "value": "0"
+        },
+        {
+          "name": "KeyUp",
+          "value": "1"
         }
       ],
       "instances": [
@@ -3578,9 +4511,44 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "Debug",
+          "persistentUuid": "e536aff9-4f9a-4a6b-b8f9-fa411ba1a366",
+          "width": 0,
+          "x": 30,
+          "y": 100,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "bold": true,
+          "italic": true,
+          "name": "Debug",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
         {
           "name": "Player0",
           "tags": "",
@@ -5361,6 +6329,16 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Debug"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5785,6 +6763,18 @@
                 "Health",
                 "=",
                 "\"Health: \" + VariableString(Health)+ \"/\" + GlobalVariableString(Options.Health)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Debug",
+                "=",
+                "\"SCENE\" + NewLine() + \"Score:\" + VariableString(Score) + NewLine() + \"Health:\" + VariableString(Health) + NewLine() + \"Timer:\" + VariableString(Timer) + NewLine() + \"SpawnRoll:\" + VariableString(SpawnRoll) + NewLine() + \"Debug:\" + VariableString(Debug) + NewLine() + \"KeyUp:\" + VariableString(KeyUp) + NewLine() + NewLine() + \"GLOBAL\" + NewLine() + \"HighScores: [0:\" + GlobalVariableString(HighScores.0) + \", 1:\" + GlobalVariableString(HighScores.1) + \", 2:\" + GlobalVariableString(HighScores.2) + \", 3:\" + GlobalVariableString(HighScores.3) + \", 4:\" + GlobalVariableString(HighScores.4) + \", 5:\" + GlobalVariableString(HighScores.5) + \", 6:\" + GlobalVariableString(HighScores.6) + \", 7:\" + GlobalVariableString(HighScores.7) + \", 8:\" + GlobalVariableString(HighScores.8) + \"]\" + NewLine() + \"LevelCompleted: [0:\" + GlobalVariableString(LevelCompleted.0) + \", 1:\" + GlobalVariableString(LevelCompleted.1) + \", 2:\" + GlobalVariableString(LevelCompleted.2) + \", 3:\" + GlobalVariableString(LevelCompleted.3) + \", 4:\" + GlobalVariableString(LevelCompleted.4) + \", 5:\" + GlobalVariableString(LevelCompleted.5) + \", 6:\" + GlobalVariableString(LevelCompleted.6) + \", 7:\" + GlobalVariableString(LevelCompleted.7) + \", 8:\" + GlobalVariableString(LevelCompleted.8) + \"]\" + NewLine() + \"Total: [Hits:\" + GlobalVariableString(Total.Hits) + \", Score:\" + GlobalVariableString(Total.Score) + \", Time:\" + GlobalVariableString(Total.Time) +\"]\" + NewLine() + \"Level: [Hits:\" + GlobalVariableString(Level.Hits) + \", Score:\" + GlobalVariableString(Level.Score) + \", Time:\" + GlobalVariableString(Level.Time) +\"]\" + NewLine() + \"Options: [DiffMod:\" + GlobalVariableString(Options.DifficultyModifier) + \", Health:\" + GlobalVariableString(Options.Health) + \", Invincible:\" + GlobalVariableString(Options.Invincible) + \",\"+ NewLine() + \"ScoreMod:\" + GlobalVariableString(Options.ScoreModifier)  + \", Sound:\" + GlobalVariableString(Options.Sound) + \", Unlocked:\" + GlobalVariableString(Options.UnlockAllLevels) +\"]\" "
               ],
               "subInstructions": []
             }
@@ -6547,6 +7537,64 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "HighScore[GlobalVariableString(LevelState.Level)]",
+                "<",
+                "Variable(Score)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelState.Endless",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "HighScores[GlobalVariableString(LevelState.Level)]",
+                "=",
+                "Variable(Score)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -6593,6 +7641,54 @@
               },
               "parameters": [
                 "Level.Score",
+                "=",
+                "Variable(Score)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "End",
+                "Player0",
+                "",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "HighScore[GlobalVariableString(LevelState.Level)]",
+                "<",
+                "Variable(Score)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "HighScores[GlobalVariableString(LevelState.Level)]",
                 "=",
                 "Variable(Score)"
               ],
@@ -6669,8 +7765,237 @@
                 "Variable(Score)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelCompleted[GlobalVariableString(LevelState.Level)]",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Debug UI",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "k"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "KeyUp",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "KeyUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "KeyUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Debug",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "KeyUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "KeyUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Debug"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cheat Keys",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -7897,19 +9222,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Checkbox::Checkbox::SetDisabled"
-              },
-              "parameters": [
-                "AllLevelsBool",
-                "Checkbox",
-                "yes",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -8274,17 +9586,38 @@
                 "1"
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "inverted": false,
-                "value": "Checkbox::Checkbox::SetDisabled"
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
                 "AllLevelsBool",
                 "Checkbox",
-                "yes",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.UnlockAllLevels",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -8625,6 +9958,405 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "Skydiving Sam",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.6092
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "KeyUp",
+          "value": "0"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "BG_lvl0",
+          "persistentUuid": "c6e16485-6514-468e-96a0-2cbabd871c48",
+          "width": 0,
+          "x": 0,
+          "y": -100,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Win",
+          "persistentUuid": "d4a3b4e5-d708-4827-bed9-55e25287e36a",
+          "width": 0,
+          "x": 160,
+          "y": 187,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Instructions",
+          "persistentUuid": "0fe2a991-3e57-4f45-8808-e9433ca900af",
+          "width": 0,
+          "x": 70,
+          "y": 370,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Score",
+          "persistentUuid": "516a2175-c1a4-4b96-8e02-39cbebf74dda",
+          "width": 0,
+          "x": 315,
+          "y": 280,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HS",
+          "persistentUuid": "6c24ce81-3d70-4e48-9861-2efed887efc8",
+          "width": 0,
+          "x": 280,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Win",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Game Over!",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Instructions",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Click anywhere, or press any key to \nreturn to the main menu",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "HS",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Highscore: 0",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "KeyUp",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "KeyUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnyKeyPressed"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MainMenu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + GlobalVariableString(Level.Score)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HS",
+                "=",
+                "\"Highscore: \" +GlobalVariableString(HighScores[GlobalVariableString(LevelState.Level)])"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 11,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7718976,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "Win",
       "name": "Win",
       "oglFOV": 90,
@@ -8698,8 +10430,40 @@
           "persistentUuid": "0fe2a991-3e57-4f45-8808-e9433ca900af",
           "width": 0,
           "x": 70,
-          "y": 300,
+          "y": 370,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Score",
+          "persistentUuid": "516a2175-c1a4-4b96-8e02-39cbebf74dda",
+          "width": 0,
+          "x": 315,
+          "y": 280,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HS",
+          "persistentUuid": "6c24ce81-3d70-4e48-9861-2efed887efc8",
+          "width": 0,
+          "x": 280,
+          "y": 320,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8743,269 +10507,20 @@
             "g": 0,
             "r": 0
           }
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "AnyKeyPressed"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "KeyUp",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "KeyUp",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SourisBouton"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AnyKeyPressed"
-                      },
-                      "parameters": [
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MainMenu\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 11,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "Background",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 7718976,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "GameOver",
-      "name": "GameOver",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "Skydiving Sam",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 1
-      },
-      "objectsGroups": [],
-      "variables": [
-        {
-          "name": "KeyUp",
-          "value": "0"
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "locked": false,
-          "name": "BG_lvl0",
-          "persistentUuid": "c6e16485-6514-468e-96a0-2cbabd871c48",
-          "width": 0,
-          "x": 0,
-          "y": -100,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GameOver",
-          "persistentUuid": "d4a3b4e5-d708-4827-bed9-55e25287e36a",
-          "width": 0,
-          "x": 150,
-          "y": 200,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Instructions",
-          "persistentUuid": "0fe2a991-3e57-4f45-8808-e9433ca900af",
-          "width": 0,
-          "x": 70,
-          "y": 300,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
         {
           "bold": true,
           "italic": false,
-          "name": "GameOver",
+          "name": "HS",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Game Over!",
+          "string": "Highscore: 0",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
-          "characterSize": 80,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -9013,16 +10528,16 @@
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
-          "name": "Instructions",
+          "name": "Score",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Click anywhere, or press any key to \nreturn to the main menu",
+          "string": "Score: 0",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 30,
           "color": {
@@ -9152,6 +10667,48 @@
                 "",
                 "\"MainMenu\"",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + GlobalVariableString(Level.Score)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HS",
+                "=",
+                "\"Highscore: \" +GlobalVariableString(HighScores[GlobalVariableString(LevelState.Level)])"
               ],
               "subInstructions": []
             }

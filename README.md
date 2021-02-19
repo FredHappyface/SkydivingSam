@@ -1,35 +1,27 @@
-[![GitHub top language](https://img.shields.io/github/languages/top/FredHappyface/CSC3224_Coursework1.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual|gh/FredHappyface/CSC3224_Coursework1)
-[![Repository size](https://img.shields.io/github/repo-size/FredHappyface/CSC3224_Coursework1.svg?style=for-the-badge)](../../)
-[![Issues](https://img.shields.io/github/issues/FredHappyface/CSC3224_Coursework1.svg?style=for-the-badge)](../../issues)
-[![License](https://img.shields.io/github/license/FredHappyface/CSC3224_Coursework1.svg?style=for-the-badge)](/LICENSE.md)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/FredHappyface/CSC3224_Coursework1.svg?style=for-the-badge)](../../commits/master)
-[![Last commit](https://img.shields.io/github/last-commit/FredHappyface/CSC3224_Coursework1.svg?style=for-the-badge)](../../commits/master)
+[![GitHub top language](https://img.shields.io/github/languages/top/FredHappyface/CSC3224_Coursework2.svg?style=for-the-badge)](../../)
+[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual|gh/FredHappyface/CSC3224_Coursework2)
+[![Repository size](https://img.shields.io/github/repo-size/FredHappyface/CSC3224_Coursework2.svg?style=for-the-badge)](../../)
+[![Issues](https://img.shields.io/github/issues/FredHappyface/CSC3224_Coursework2.svg?style=for-the-badge)](../../issues)
+[![License](https://img.shields.io/github/license/FredHappyface/CSC3224_Coursework2.svg?style=for-the-badge)](/LICENSE.md)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/FredHappyface/CSC3224_Coursework2.svg?style=for-the-badge)](../../commits/master)
+[![Last commit](https://img.shields.io/github/last-commit/FredHappyface/CSC3224_Coursework2.svg?style=for-the-badge)](../../commits/master)
 
-# CSC3224_Coursework1
+# CSC3224_Coursework2
 
 <img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
-## Coursework 1
-- 10 Marks available for game design:
-  - 3 marks if interaction is possible (i.e., if the player can influence the environment in any way)
-Controls and collision detection, elements ‘picked up’ ✅
-  - 3 marks if genre is clear (i.e., if it is clear what the player has to do after a little experimenting)
-Arcade so use arcade style graphics (bright colours) and sounds – add control info to main menu ✅
-  - 2 marks for one or more goals (i.e., the player can achieve something - like collecting a coin or shooting something)
-Score counter and level timer (player freezes when hit causing timer to continue ticking). Player also has life that depletes when hit ✅
-  - 2 marks for ease of play (i.e., the player can figure out what to do)
-Should be pretty easy to play ✅
-- 10 Marks available for technical design:
-  - 3 marks for control management (i.e., player can control environment as expected - like making a character run or making a gun fire)
-Controls ✅
-  - 3 marks for event handling (i.e., environment reacts to a player’s interaction in an expected way - like a bullet comes out of a gun or a character falls off a ledge)
-Collision detection ✅
-  - 4 marks for environment automation (i.e., the game starts and plays even if the player doesn’t do anything - like when aliens appear and attack or a timer counts down)
-Scrolling level, elements spawned randomly ✅
-- 5 Marks for developer tools:
-  - 5 Marks for anything that may help the developer test the game (i.e., cheat keys to jump through a level, invulnerability on or off)
-Level unlock, invincible, more life, score multiplier ✅ Note level unlock doesn’t work as only endless + lvl1 are implemented
+## Coursework 2
+
+
+### Links
+
+- GH: https://github.com/FredHappyface/CSC3224_Coursework2
+- GH Pages: https://fredhappyface.github.io/CSC3224_Coursework2/
+
+See also in [url.txt](/url.txt)
+
+
+### Marks
 
 
 ## Gdevelop information
@@ -56,7 +48,7 @@ GDevelop is a full-featured, open-source game development software, allowing to 
 clone to
 4. Type 'git clone' followed by URL in step 2
 ```bash
-$ git clone https://github.com/FredHappyface/CSC3224_Coursework1
+$ git clone https://github.com/FredHappyface/CSC3224_Coursework2
 ```
 
 More information can be found at

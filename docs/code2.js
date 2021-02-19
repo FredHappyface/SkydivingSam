@@ -7,78 +7,118 @@ gdjs.LevelCode.GDTouchRightObjects1_1final = [];
 
 gdjs.LevelCode.GDBG_95lvl0Objects1= [];
 gdjs.LevelCode.GDBG_95lvl0Objects2= [];
+gdjs.LevelCode.GDBG_95lvl0Objects3= [];
+gdjs.LevelCode.GDDebugObjects1= [];
+gdjs.LevelCode.GDDebugObjects2= [];
+gdjs.LevelCode.GDDebugObjects3= [];
 gdjs.LevelCode.GDPlayer0Objects1= [];
 gdjs.LevelCode.GDPlayer0Objects2= [];
+gdjs.LevelCode.GDPlayer0Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl0Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl0Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl0Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl0Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl0Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl0Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl1Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl1Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl1Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl1Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl1Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl1Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl2Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl2Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl2Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl2Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl2Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl2Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl3Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl3Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl3Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl3Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl3Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl3Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl4Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl4Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl4Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl4Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl4Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl4Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl5Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl5Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl5Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl5Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl5Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl5Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl6Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl6Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl6Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl6Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl6Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl6Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl7Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl7Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl7Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl7Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl7Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl7Objects3= [];
 gdjs.LevelCode.GDElement0_95lvl8Objects1= [];
 gdjs.LevelCode.GDElement0_95lvl8Objects2= [];
+gdjs.LevelCode.GDElement0_95lvl8Objects3= [];
 gdjs.LevelCode.GDElement1_95lvl8Objects1= [];
 gdjs.LevelCode.GDElement1_95lvl8Objects2= [];
+gdjs.LevelCode.GDElement1_95lvl8Objects3= [];
 gdjs.LevelCode.GDScoreObjects1= [];
 gdjs.LevelCode.GDScoreObjects2= [];
+gdjs.LevelCode.GDScoreObjects3= [];
 gdjs.LevelCode.GDHealthObjects1= [];
 gdjs.LevelCode.GDHealthObjects2= [];
+gdjs.LevelCode.GDHealthObjects3= [];
 gdjs.LevelCode.GDTimerObjects1= [];
 gdjs.LevelCode.GDTimerObjects2= [];
+gdjs.LevelCode.GDTimerObjects3= [];
 gdjs.LevelCode.GDInstructionsObjects1= [];
 gdjs.LevelCode.GDInstructionsObjects2= [];
+gdjs.LevelCode.GDInstructionsObjects3= [];
 gdjs.LevelCode.GDTouchLeftObjects1= [];
 gdjs.LevelCode.GDTouchLeftObjects2= [];
+gdjs.LevelCode.GDTouchLeftObjects3= [];
 gdjs.LevelCode.GDTouchRightObjects1= [];
 gdjs.LevelCode.GDTouchRightObjects2= [];
+gdjs.LevelCode.GDTouchRightObjects3= [];
 gdjs.LevelCode.GDElement2Objects1= [];
 gdjs.LevelCode.GDElement2Objects2= [];
+gdjs.LevelCode.GDElement2Objects3= [];
 gdjs.LevelCode.GDEndObjects1= [];
 gdjs.LevelCode.GDEndObjects2= [];
+gdjs.LevelCode.GDEndObjects3= [];
 gdjs.LevelCode.GDAbortObjects1= [];
 gdjs.LevelCode.GDAbortObjects2= [];
+gdjs.LevelCode.GDAbortObjects3= [];
 gdjs.LevelCode.GDBG_95lvl1Objects1= [];
 gdjs.LevelCode.GDBG_95lvl1Objects2= [];
+gdjs.LevelCode.GDBG_95lvl1Objects3= [];
 gdjs.LevelCode.GDBG_95lvl2Objects1= [];
 gdjs.LevelCode.GDBG_95lvl2Objects2= [];
+gdjs.LevelCode.GDBG_95lvl2Objects3= [];
 gdjs.LevelCode.GDBG_95lvl3Objects1= [];
 gdjs.LevelCode.GDBG_95lvl3Objects2= [];
+gdjs.LevelCode.GDBG_95lvl3Objects3= [];
 gdjs.LevelCode.GDBG_95lvl4Objects1= [];
 gdjs.LevelCode.GDBG_95lvl4Objects2= [];
+gdjs.LevelCode.GDBG_95lvl4Objects3= [];
 gdjs.LevelCode.GDBG_95lvl5Objects1= [];
 gdjs.LevelCode.GDBG_95lvl5Objects2= [];
+gdjs.LevelCode.GDBG_95lvl5Objects3= [];
 gdjs.LevelCode.GDBG_95lvl6Objects1= [];
 gdjs.LevelCode.GDBG_95lvl6Objects2= [];
+gdjs.LevelCode.GDBG_95lvl6Objects3= [];
 gdjs.LevelCode.GDBG_95lvl7Objects1= [];
 gdjs.LevelCode.GDBG_95lvl7Objects2= [];
+gdjs.LevelCode.GDBG_95lvl7Objects3= [];
 gdjs.LevelCode.GDBG_95lvl8Objects1= [];
 gdjs.LevelCode.GDBG_95lvl8Objects2= [];
+gdjs.LevelCode.GDBG_95lvl8Objects3= [];
 
 gdjs.LevelCode.conditionTrue_0 = {val:false};
 gdjs.LevelCode.condition0IsTrue_0 = {val:false};
@@ -97,7 +137,55 @@ gdjs.LevelCode.condition2IsTrue_2 = {val:false};
 gdjs.LevelCode.condition3IsTrue_2 = {val:false};
 
 
-gdjs.LevelCode.mapOf = Hashtable.newFrom({});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects = Hashtable.newFrom({"Element0_lvl0": gdjs.LevelCode.GDElement0_95lvl0Objects1, "Element0_lvl1": gdjs.LevelCode.GDElement0_95lvl1Objects1, "Element0_lvl2": gdjs.LevelCode.GDElement0_95lvl2Objects1, "Element0_lvl3": gdjs.LevelCode.GDElement0_95lvl3Objects1, "Element0_lvl4": gdjs.LevelCode.GDElement0_95lvl4Objects1, "Element0_lvl5": gdjs.LevelCode.GDElement0_95lvl5Objects1, "Element0_lvl6": gdjs.LevelCode.GDElement0_95lvl6Objects1, "Element0_lvl7": gdjs.LevelCode.GDElement0_95lvl7Objects1, "Element0_lvl8": gdjs.LevelCode.GDElement0_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDAbortObjects1Objects = Hashtable.newFrom({"Abort": gdjs.LevelCode.GDAbortObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects = Hashtable.newFrom({"End": gdjs.LevelCode.GDEndObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDTouchLeftObjects2Objects = Hashtable.newFrom({"TouchLeft": gdjs.LevelCode.GDTouchLeftObjects2});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDTouchRightObjects2Objects = Hashtable.newFrom({"TouchRight": gdjs.LevelCode.GDTouchRightObjects2});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDAbortObjects2Objects = Hashtable.newFrom({"Abort": gdjs.LevelCode.GDAbortObjects2});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects = Hashtable.newFrom({"Element0_lvl0": gdjs.LevelCode.GDElement0_95lvl0Objects1, "Element0_lvl1": gdjs.LevelCode.GDElement0_95lvl1Objects1, "Element0_lvl2": gdjs.LevelCode.GDElement0_95lvl2Objects1, "Element0_lvl3": gdjs.LevelCode.GDElement0_95lvl3Objects1, "Element0_lvl4": gdjs.LevelCode.GDElement0_95lvl4Objects1, "Element0_lvl5": gdjs.LevelCode.GDElement0_95lvl5Objects1, "Element0_lvl6": gdjs.LevelCode.GDElement0_95lvl6Objects1, "Element0_lvl7": gdjs.LevelCode.GDElement0_95lvl7Objects1, "Element0_lvl8": gdjs.LevelCode.GDElement0_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects = Hashtable.newFrom({"Element2": gdjs.LevelCode.GDElement2Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects = Hashtable.newFrom({"Element0_lvl0": gdjs.LevelCode.GDElement0_95lvl0Objects1, "Element0_lvl1": gdjs.LevelCode.GDElement0_95lvl1Objects1, "Element0_lvl2": gdjs.LevelCode.GDElement0_95lvl2Objects1, "Element0_lvl3": gdjs.LevelCode.GDElement0_95lvl3Objects1, "Element0_lvl4": gdjs.LevelCode.GDElement0_95lvl4Objects1, "Element0_lvl5": gdjs.LevelCode.GDElement0_95lvl5Objects1, "Element0_lvl6": gdjs.LevelCode.GDElement0_95lvl6Objects1, "Element0_lvl7": gdjs.LevelCode.GDElement0_95lvl7Objects1, "Element0_lvl8": gdjs.LevelCode.GDElement0_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects = Hashtable.newFrom({"Element2": gdjs.LevelCode.GDElement2Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects = Hashtable.newFrom({"Element2": gdjs.LevelCode.GDElement2Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects = Hashtable.newFrom({"End": gdjs.LevelCode.GDEndObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.eventsList0 = function(runtimeScene) {
+gdjs.LevelCode.mapOf = Hashtable.newFrom({});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects = Hashtable.newFrom({"Element0_lvl0": gdjs.LevelCode.GDElement0_95lvl0Objects1, "Element0_lvl1": gdjs.LevelCode.GDElement0_95lvl1Objects1, "Element0_lvl2": gdjs.LevelCode.GDElement0_95lvl2Objects1, "Element0_lvl3": gdjs.LevelCode.GDElement0_95lvl3Objects1, "Element0_lvl4": gdjs.LevelCode.GDElement0_95lvl4Objects1, "Element0_lvl5": gdjs.LevelCode.GDElement0_95lvl5Objects1, "Element0_lvl6": gdjs.LevelCode.GDElement0_95lvl6Objects1, "Element0_lvl7": gdjs.LevelCode.GDElement0_95lvl7Objects1, "Element0_lvl8": gdjs.LevelCode.GDElement0_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDAbortObjects1Objects = Hashtable.newFrom({"Abort": gdjs.LevelCode.GDAbortObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects = Hashtable.newFrom({"End": gdjs.LevelCode.GDEndObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDTouchLeftObjects2Objects = Hashtable.newFrom({"TouchLeft": gdjs.LevelCode.GDTouchLeftObjects2});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDTouchRightObjects2Objects = Hashtable.newFrom({"TouchRight": gdjs.LevelCode.GDTouchRightObjects2});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDAbortObjects2Objects = Hashtable.newFrom({"Abort": gdjs.LevelCode.GDAbortObjects2});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects = Hashtable.newFrom({"Element0_lvl0": gdjs.LevelCode.GDElement0_95lvl0Objects1, "Element0_lvl1": gdjs.LevelCode.GDElement0_95lvl1Objects1, "Element0_lvl2": gdjs.LevelCode.GDElement0_95lvl2Objects1, "Element0_lvl3": gdjs.LevelCode.GDElement0_95lvl3Objects1, "Element0_lvl4": gdjs.LevelCode.GDElement0_95lvl4Objects1, "Element0_lvl5": gdjs.LevelCode.GDElement0_95lvl5Objects1, "Element0_lvl6": gdjs.LevelCode.GDElement0_95lvl6Objects1, "Element0_lvl7": gdjs.LevelCode.GDElement0_95lvl7Objects1, "Element0_lvl8": gdjs.LevelCode.GDElement0_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects = Hashtable.newFrom({"Element2": gdjs.LevelCode.GDElement2Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects = Hashtable.newFrom({"Element0_lvl0": gdjs.LevelCode.GDElement0_95lvl0Objects1, "Element0_lvl1": gdjs.LevelCode.GDElement0_95lvl1Objects1, "Element0_lvl2": gdjs.LevelCode.GDElement0_95lvl2Objects1, "Element0_lvl3": gdjs.LevelCode.GDElement0_95lvl3Objects1, "Element0_lvl4": gdjs.LevelCode.GDElement0_95lvl4Objects1, "Element0_lvl5": gdjs.LevelCode.GDElement0_95lvl5Objects1, "Element0_lvl6": gdjs.LevelCode.GDElement0_95lvl6Objects1, "Element0_lvl7": gdjs.LevelCode.GDElement0_95lvl7Objects1, "Element0_lvl8": gdjs.LevelCode.GDElement0_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects = Hashtable.newFrom({"Element1_lvl0": gdjs.LevelCode.GDElement1_95lvl0Objects1, "Element1_lvl1": gdjs.LevelCode.GDElement1_95lvl1Objects1, "Element1_lvl2": gdjs.LevelCode.GDElement1_95lvl2Objects1, "Element1_lvl3": gdjs.LevelCode.GDElement1_95lvl3Objects1, "Element1_lvl4": gdjs.LevelCode.GDElement1_95lvl4Objects1, "Element1_lvl5": gdjs.LevelCode.GDElement1_95lvl5Objects1, "Element1_lvl6": gdjs.LevelCode.GDElement1_95lvl6Objects1, "Element1_lvl7": gdjs.LevelCode.GDElement1_95lvl7Objects1, "Element1_lvl8": gdjs.LevelCode.GDElement1_95lvl8Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects = Hashtable.newFrom({"Element2": gdjs.LevelCode.GDElement2Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects = Hashtable.newFrom({"Element2": gdjs.LevelCode.GDElement2Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects = Hashtable.newFrom({"End": gdjs.LevelCode.GDEndObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects = Hashtable.newFrom({"End": gdjs.LevelCode.GDEndObjects1});gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.LevelCode.GDPlayer0Objects1});gdjs.LevelCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+gdjs.LevelCode.condition0IsTrue_0.val = false;
+gdjs.LevelCode.condition1IsTrue_0.val = false;
+{
+gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 0;
+}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
+{
+gdjs.LevelCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
+}}
+if (gdjs.LevelCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs.LevelCode.GDDebugObjects2);
+{runtimeScene.getVariables().getFromIndex(4).setNumber(1);
+}{runtimeScene.getVariables().getFromIndex(5).setNumber(1);
+}{for(var i = 0, len = gdjs.LevelCode.GDDebugObjects2.length ;i < len;++i) {
+    gdjs.LevelCode.GDDebugObjects2[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelCode.condition0IsTrue_0.val = false;
+gdjs.LevelCode.condition1IsTrue_0.val = false;
+{
+gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
+{
+gdjs.LevelCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(5)) == 0;
+}}
+if (gdjs.LevelCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs.LevelCode.GDDebugObjects1);
+{runtimeScene.getVariables().getFromIndex(4).setNumber(0);
+}{runtimeScene.getVariables().getFromIndex(5).setNumber(1);
+}{for(var i = 0, len = gdjs.LevelCode.GDDebugObjects1.length ;i < len;++i) {
+    gdjs.LevelCode.GDDebugObjects1[i].hide();
+}
+}}
+
+}
+
+
+};gdjs.LevelCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -112,9 +200,10 @@ gdjs.LevelCode.mapOf = Hashtable.newFrom({});gdjs.LevelCode.mapOfGDgdjs_46LevelC
 gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition0IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8644940);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9667652);
 }
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs.LevelCode.GDDebugObjects1);
 gdjs.LevelCode.GDElement0_95lvl0Objects1.length = 0;
 
 gdjs.LevelCode.GDElement0_95lvl1Objects1.length = 0;
@@ -210,6 +299,9 @@ for(var i = 0, len = gdjs.LevelCode.GDElement1_95lvl8Objects1.length ;i < len;++
     gdjs.LevelCode.GDElement1_95lvl8Objects1[i].setScale(0.31);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Hits").setNumber(0);
+}{for(var i = 0, len = gdjs.LevelCode.GDDebugObjects1.length ;i < len;++i) {
+    gdjs.LevelCode.GDDebugObjects1[i].hide();
+}
 }}
 
 }
@@ -225,7 +317,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8649988);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7306940);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -247,7 +339,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8651108);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9727644);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -441,6 +533,7 @@ gdjs.copyArray(gdjs.LevelCode.GDAbortObjects1_1final, gdjs.LevelCode.GDAbortObje
 
 
 {
+gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs.LevelCode.GDDebugObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Health"), gdjs.LevelCode.GDHealthObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.LevelCode.GDScoreObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Timer"), gdjs.LevelCode.GDTimerObjects1);
@@ -453,6 +546,9 @@ gdjs.copyArray(runtimeScene.getObjects("Timer"), gdjs.LevelCode.GDTimerObjects1)
 }
 }{for(var i = 0, len = gdjs.LevelCode.GDHealthObjects1.length ;i < len;++i) {
     gdjs.LevelCode.GDHealthObjects1[i].setString("Health: " + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(3)) + "/" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Health")));
+}
+}{for(var i = 0, len = gdjs.LevelCode.GDDebugObjects1.length ;i < len;++i) {
+    gdjs.LevelCode.GDDebugObjects1[i].setString("SCENE" + gdjs.evtTools.string.newLine() + "Score:" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(0)) + gdjs.evtTools.string.newLine() + "Health:" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(3)) + gdjs.evtTools.string.newLine() + "Timer:" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(1)) + gdjs.evtTools.string.newLine() + "SpawnRoll:" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(2)) + gdjs.evtTools.string.newLine() + "Debug:" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(4)) + gdjs.evtTools.string.newLine() + "KeyUp:" + gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(5)) + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "GLOBAL" + gdjs.evtTools.string.newLine() + "HighScores: [0:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("0")) + ", 1:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("1")) + ", 2:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("2")) + ", 3:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("3")) + ", 4:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("4")) + ", 5:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("5")) + ", 6:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("6")) + ", 7:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("7")) + ", 8:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("8")) + "]" + gdjs.evtTools.string.newLine() + "LevelCompleted: [0:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("0")) + ", 1:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("1")) + ", 2:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("2")) + ", 3:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("3")) + ", 4:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("4")) + ", 5:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("5")) + ", 6:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("6")) + ", 7:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("7")) + ", 8:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("8")) + "]" + gdjs.evtTools.string.newLine() + "Total: [Hits:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Hits")) + ", Score:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Score")) + ", Time:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Time")) + "]" + gdjs.evtTools.string.newLine() + "Level: [Hits:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Hits")) + ", Score:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Score")) + ", Time:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Time")) + "]" + gdjs.evtTools.string.newLine() + "Options: [DiffMod:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("DifficultyModifier")) + ", Health:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Health")) + ", Invincible:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Invincible")) + "," + gdjs.evtTools.string.newLine() + "ScoreMod:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("ScoreModifier")) + ", Sound:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")) + ", Unlocked:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) + "]");
 }
 }}
 
@@ -883,6 +979,29 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 
 
 gdjs.LevelCode.condition0IsTrue_0.val = false;
+gdjs.LevelCode.condition1IsTrue_0.val = false;
+gdjs.LevelCode.condition2IsTrue_0.val = false;
+{
+gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
+{
+gdjs.LevelCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("HighScore").getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")))) < gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0));
+}if ( gdjs.LevelCode.condition1IsTrue_0.val ) {
+{
+gdjs.LevelCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless")) > 0;
+}}
+}
+if (gdjs.LevelCode.condition2IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level"))).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)));
+}}
+
+}
+
+
+{
+
+
+gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
@@ -901,6 +1020,26 @@ gdjs.copyArray(runtimeScene.getObjects("End"), gdjs.LevelCode.GDEndObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.LevelCode.GDPlayer0Objects1);
 
 gdjs.LevelCode.condition0IsTrue_0.val = false;
+gdjs.LevelCode.condition1IsTrue_0.val = false;
+{
+gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects, gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects, false, runtimeScene, true);
+}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
+{
+gdjs.LevelCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("HighScore").getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")))) < gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0));
+}}
+if (gdjs.LevelCode.condition1IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level"))).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("End"), gdjs.LevelCode.GDEndObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.LevelCode.GDPlayer0Objects1);
+
+gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDEndObjects1Objects, gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDPlayer0Objects1Objects, false, runtimeScene, true);
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
@@ -908,7 +1047,54 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Win", false);
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Time").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Score").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)));
+}{runtimeScene.getGame().getVariables().getFromIndex(5).getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level"))).setNumber(1);
 }}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.LevelCode.condition0IsTrue_0.val = false;
+gdjs.LevelCode.condition1IsTrue_0.val = false;
+{
+gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "k");
+}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
+{
+{gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9388252);
+}
+}}
+if (gdjs.LevelCode.condition1IsTrue_0.val) {
+{runtimeScene.getVariables().getFromIndex(5).setNumber(0);
+}
+{ //Subevents
+gdjs.LevelCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -920,80 +1106,120 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.LevelCode.GDBG_95lvl0Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl0Objects3.length = 0;
+gdjs.LevelCode.GDDebugObjects1.length = 0;
+gdjs.LevelCode.GDDebugObjects2.length = 0;
+gdjs.LevelCode.GDDebugObjects3.length = 0;
 gdjs.LevelCode.GDPlayer0Objects1.length = 0;
 gdjs.LevelCode.GDPlayer0Objects2.length = 0;
+gdjs.LevelCode.GDPlayer0Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl0Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl0Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl0Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl0Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl0Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl0Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl1Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl1Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl1Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl1Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl1Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl1Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl2Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl2Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl2Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl2Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl2Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl2Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl3Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl3Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl3Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl3Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl3Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl3Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl4Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl4Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl4Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl4Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl4Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl4Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl5Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl5Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl5Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl5Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl5Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl5Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl6Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl6Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl6Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl6Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl6Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl6Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl7Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl7Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl7Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl7Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl7Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl7Objects3.length = 0;
 gdjs.LevelCode.GDElement0_95lvl8Objects1.length = 0;
 gdjs.LevelCode.GDElement0_95lvl8Objects2.length = 0;
+gdjs.LevelCode.GDElement0_95lvl8Objects3.length = 0;
 gdjs.LevelCode.GDElement1_95lvl8Objects1.length = 0;
 gdjs.LevelCode.GDElement1_95lvl8Objects2.length = 0;
+gdjs.LevelCode.GDElement1_95lvl8Objects3.length = 0;
 gdjs.LevelCode.GDScoreObjects1.length = 0;
 gdjs.LevelCode.GDScoreObjects2.length = 0;
+gdjs.LevelCode.GDScoreObjects3.length = 0;
 gdjs.LevelCode.GDHealthObjects1.length = 0;
 gdjs.LevelCode.GDHealthObjects2.length = 0;
+gdjs.LevelCode.GDHealthObjects3.length = 0;
 gdjs.LevelCode.GDTimerObjects1.length = 0;
 gdjs.LevelCode.GDTimerObjects2.length = 0;
+gdjs.LevelCode.GDTimerObjects3.length = 0;
 gdjs.LevelCode.GDInstructionsObjects1.length = 0;
 gdjs.LevelCode.GDInstructionsObjects2.length = 0;
+gdjs.LevelCode.GDInstructionsObjects3.length = 0;
 gdjs.LevelCode.GDTouchLeftObjects1.length = 0;
 gdjs.LevelCode.GDTouchLeftObjects2.length = 0;
+gdjs.LevelCode.GDTouchLeftObjects3.length = 0;
 gdjs.LevelCode.GDTouchRightObjects1.length = 0;
 gdjs.LevelCode.GDTouchRightObjects2.length = 0;
+gdjs.LevelCode.GDTouchRightObjects3.length = 0;
 gdjs.LevelCode.GDElement2Objects1.length = 0;
 gdjs.LevelCode.GDElement2Objects2.length = 0;
+gdjs.LevelCode.GDElement2Objects3.length = 0;
 gdjs.LevelCode.GDEndObjects1.length = 0;
 gdjs.LevelCode.GDEndObjects2.length = 0;
+gdjs.LevelCode.GDEndObjects3.length = 0;
 gdjs.LevelCode.GDAbortObjects1.length = 0;
 gdjs.LevelCode.GDAbortObjects2.length = 0;
+gdjs.LevelCode.GDAbortObjects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl1Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl1Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl1Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl2Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl2Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl2Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl3Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl3Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl3Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl4Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl4Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl4Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl5Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl5Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl5Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl6Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl6Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl6Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl7Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl7Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl7Objects3.length = 0;
 gdjs.LevelCode.GDBG_95lvl8Objects1.length = 0;
 gdjs.LevelCode.GDBG_95lvl8Objects2.length = 0;
+gdjs.LevelCode.GDBG_95lvl8Objects3.length = 0;
 
-gdjs.LevelCode.eventsList0(runtimeScene);
+gdjs.LevelCode.eventsList1(runtimeScene);
 return;
 
 }
