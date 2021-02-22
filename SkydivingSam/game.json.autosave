@@ -832,6 +832,124 @@
         "name": "assets\\game\\controls\\touch_button_tile.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/0_fall_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\0_fall_idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/0_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\0_right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/0_right_alt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\0_right_alt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/1_fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\1_fall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/1_fall_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\1_fall_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/1_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\1_right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/2_fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\2_fall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/2_fall_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\2_fall_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/player/2_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\player\\2_right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/controls/prompt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\controls\\prompt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/music/music_0.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music\\music_0.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/music/music_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music\\music_1.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/music/music_2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music\\music_2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/music/music_3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music\\music_3.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -972,6 +1090,10 @@
         {
           "name": "Level",
           "value": "0"
+        },
+        {
+          "name": "Music",
+          "value": "0"
         }
       ]
     },
@@ -988,6 +1110,10 @@
         },
         {
           "name": "Invincible",
+          "value": "0"
+        },
+        {
+          "name": "PlayerId",
           "value": "0"
         },
         {
@@ -1425,7 +1551,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(b_02.19_u1)",
+          "string": "(b_02.22)",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 20,
           "color": {
@@ -1622,12 +1748,36 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"Level\"",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Difficulty",
+                "=",
+                "1.4"
               ],
               "subInstructions": []
             }
@@ -1884,6 +2034,18 @@
                 "HS",
                 "=",
                 "\"[HS:\" + GlobalVariableString(HighScores.endless) +\"]\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
               ],
               "subInstructions": []
             }
@@ -3586,6 +3748,18 @@
                 "GlobalVariableString(HighScores.8)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4232,6 +4406,18 @@
                 "0.6"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4324,6 +4510,18 @@
                 "LevelState.Difficulty",
                 "=",
                 "0.8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -4449,6 +4647,18 @@
               },
               "parameters": [
                 "LevelState.Difficulty",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
                 "=",
                 "1"
               ],
@@ -4580,6 +4790,18 @@
                 "1.2"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4705,6 +4927,18 @@
                 "LevelState.Difficulty",
                 "=",
                 "1.4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -4834,6 +5068,18 @@
                 "1.6"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4959,6 +5205,18 @@
                 "LevelState.Difficulty",
                 "=",
                 "1.8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "2"
               ],
               "subInstructions": []
             }
@@ -5088,6 +5346,18 @@
                 "2"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5213,6 +5483,18 @@
                 "LevelState.Difficulty",
                 "=",
                 "2.2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "3"
               ],
               "subInstructions": []
             }
@@ -5351,6 +5633,20 @@
         {
           "name": "BG",
           "objects": []
+        },
+        {
+          "name": "Player",
+          "objects": [
+            {
+              "name": "Player0"
+            },
+            {
+              "name": "Player1"
+            },
+            {
+              "name": "Player2"
+            }
+          ]
         }
       ],
       "variables": [
@@ -5452,22 +5748,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Player0",
-          "persistentUuid": "e7fd1be4-3f58-41c8-95f3-a304abed9bde",
-          "width": 0,
-          "x": 345,
-          "y": 100,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "UI",
           "locked": false,
           "name": "Debug",
@@ -5511,6 +5791,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "TouchControl",
+          "locked": false,
+          "name": "TouchPrompt",
+          "persistentUuid": "aaed2166-70c7-4971-b922-9658c8e1d5a7",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5551,16 +5847,62 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Fall",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1.5,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\game\\player\\0_fall.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\0_fall_idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\0_right.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7130,6 +7472,233 @@
           "width": 400,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "name": "Player2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "StayOnScreen",
+              "type": "StayOnScreen::StayOnScreen",
+              "MarginTop": 0,
+              "MarginBottom": 0,
+              "MarginLeft": 0,
+              "MarginRight": 110
+            }
+          ],
+          "animations": [
+            {
+              "name": "Fall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\2_fall.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\2_fall_idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\2_right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "StayOnScreen",
+              "type": "StayOnScreen::StayOnScreen",
+              "MarginTop": 0,
+              "MarginBottom": 0,
+              "MarginLeft": 0,
+              "MarginRight": 110
+            }
+          ],
+          "animations": [
+            {
+              "name": "Fall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\1_fall.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\1_fall_idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\player\\1_right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TouchPrompt",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\controls\\prompt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7265,6 +7834,43 @@
                 "Debug"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "\"Player\" + GlobalVariableString(Options.PlayerId)",
+                "345",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TouchPrompt"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -7308,6 +7914,182 @@
                 "100",
                 "500",
                 "\"TouchControl\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music_0.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music_1.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music_2.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelState.Music",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music_3.mp3",
+                "yes",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -7383,26 +8165,40 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TouchPrompt",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "SystemInfo::HasTouchScreen"
+                "value": "Opacity"
               },
               "parameters": [
-                ""
+                "TouchPrompt",
+                "-",
+                "100*TimeDelta()"
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
           "events": []
         },
         {
@@ -7419,6 +8215,102 @@
           },
           "comment": "Controls",
           "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Fall\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -7497,10 +8389,32 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Player0",
+                "Player",
                 "-160",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Right\""
               ],
               "subInstructions": []
             }
@@ -7584,10 +8498,21 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Player0",
+                "Player",
                 "160",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Right\""
               ],
               "subInstructions": []
             }
@@ -7780,7 +8705,7 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Player0",
+                "Player",
                 "",
                 "120 + TimerElapsedTime(\"Timer\")*2.2*GlobalVariable(Options.DifficultyModifier) * GlobalVariable(LevelState.Difficulty)",
                 ""
@@ -7795,7 +8720,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player0.Y() + 200",
+                "Player.Y() + 200",
                 "",
                 ""
               ],
@@ -7914,7 +8839,7 @@
                 "Good",
                 "\"Element0_lvl\" + GlobalVariableString(LevelState.Level)",
                 "RandomInRange(0,536)",
-                "Player0.Y() + 500",
+                "Player.Y() + 500",
                 "\"\""
               ],
               "subInstructions": []
@@ -7984,7 +8909,7 @@
                 "Bad",
                 "\"Element1_lvl\" + GlobalVariableString(LevelState.Level)",
                 "RandomInRange(0,536)",
-                "Player0.Y() + 500",
+                "Player.Y() + 500",
                 "\"\""
               ],
               "subInstructions": []
@@ -8042,7 +8967,7 @@
                 "Element2",
                 "\"Element2\"",
                 "RandomInRange(0,536)",
-                "Player0.Y() + 500",
+                "Player.Y() + 500",
                 "\"\""
               ],
               "subInstructions": []
@@ -8089,7 +9014,7 @@
               },
               "parameters": [
                 "Good",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -8155,7 +9080,7 @@
                   },
                   "parameters": [
                     "Bad",
-                    "Player0",
+                    "Player",
                     "",
                     "",
                     "yes"
@@ -8274,7 +9199,7 @@
               },
               "parameters": [
                 "Bad",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -8430,7 +9355,7 @@
                   },
                   "parameters": [
                     "Element2",
-                    "Player0",
+                    "Player",
                     "",
                     "",
                     "yes"
@@ -8479,7 +9404,7 @@
               },
               "parameters": [
                 "Element2",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -8718,7 +9643,7 @@
               },
               "parameters": [
                 "End",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -8766,7 +9691,7 @@
               },
               "parameters": [
                 "End",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -8779,7 +9704,7 @@
                 "value": "VarGlobal"
               },
               "parameters": [
-                "HighScore[GlobalVariableString(LevelHits.High)]",
+                "LevelHits.High",
                 "<",
                 "Variable(Hits)"
               ],
@@ -8793,7 +9718,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "HighScores[GlobalVariableString(LevelHits.High)]",
+                "LevelHits.High",
                 "=",
                 "Variable(Hits)"
               ],
@@ -8814,7 +9739,7 @@
               },
               "parameters": [
                 "End",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -8862,7 +9787,7 @@
               },
               "parameters": [
                 "End",
-                "Player0",
+                "Player",
                 "",
                 "",
                 "yes"
@@ -9938,6 +10863,18 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -9954,16 +10891,31 @@
               },
               "parameters": [
                 "",
-                "NumpadSubtract"
+                "LAlt"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "KeyPressed"
               },
-              "parameters": [],
+              "parameters": [
+                "",
+                "Down"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Options.Sound",
+                ">",
+                "0"
+              ],
               "subInstructions": []
             }
           ],
@@ -9977,6 +10929,18 @@
                 "Options.Sound",
                 "-",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
               ],
               "subInstructions": []
             }
@@ -10473,7 +11437,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(Kieran W)",
+          "string": "(KW)",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -10710,7 +11674,7 @@
           "persistentUuid": "a9a76c74-5b43-4f21-93e4-c457925a71a4",
           "width": 0,
           "x": 100,
-          "y": 300,
+          "y": 350,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -10726,7 +11690,7 @@
           "persistentUuid": "7663de09-baff-4731-b849-58f65d9a7e4f",
           "width": 0,
           "x": 670,
-          "y": 355,
+          "y": 405,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -10770,27 +11734,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Difficulty",
-          "persistentUuid": "90a40cbb-f4c6-4c92-af5a-2bf0648d90da",
-          "width": 0,
-          "x": 100,
-          "y": 210,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "AllLevels",
           "persistentUuid": "74e48c86-ab70-4874-abf4-75c8a6b12f4f",
           "width": 0,
           "x": 110,
-          "y": 470,
+          "y": 520,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -10806,7 +11754,7 @@
           "persistentUuid": "e2511fe5-0029-4ed1-8b4c-02ecf36e85e9",
           "width": 0,
           "x": 670,
-          "y": 395,
+          "y": 445,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -10822,7 +11770,7 @@
           "persistentUuid": "c90a3b15-70f8-4df3-bd44-b6c98c21c158",
           "width": 0,
           "x": 670,
-          "y": 435,
+          "y": 485,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -10838,7 +11786,7 @@
           "persistentUuid": "3575a031-58b8-4bce-9d8a-a882aaa7ade3",
           "width": 0,
           "x": 110,
-          "y": 350,
+          "y": 400,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -10854,7 +11802,7 @@
           "persistentUuid": "10c136e4-df50-42b9-9507-0f40a0662cdf",
           "width": 0,
           "x": 110,
-          "y": 390,
+          "y": 440,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -10870,7 +11818,7 @@
           "persistentUuid": "45cc6936-a779-4714-a2e8-b027050f4555",
           "width": 0,
           "x": 110,
-          "y": 430,
+          "y": 480,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -10886,8 +11834,104 @@
           "persistentUuid": "b8f0b4d9-05ff-41dc-9149-156f0eb934d0",
           "width": 0,
           "x": 670,
-          "y": 475,
+          "y": 525,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Difficulty",
+          "persistentUuid": "739b8674-bbce-4fe7-bd86-6255725441a9",
+          "width": 0,
+          "x": 100,
+          "y": 210,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "cb6e59b3-ee32-4d5a-954a-73c0874a24fb",
+          "width": 0,
+          "x": 96,
+          "y": 300,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "PlayerInfo",
+          "persistentUuid": "de4d88aa-733e-42db-9eb9-2beedc95a967",
+          "width": 0,
+          "x": 240,
+          "y": 305,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player0",
+          "persistentUuid": "13f539d8-ec20-4b2f-8886-10e75ff573fb",
+          "width": 0,
+          "x": 329,
+          "y": 310,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player2",
+          "persistentUuid": "df82479e-cdfc-4b9d-ae8a-f91b915d832e",
+          "width": 0,
+          "x": 665,
+          "y": 310,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player1",
+          "persistentUuid": "f04959e8-81ac-4849-9501-4842a0a396bf",
+          "width": 0,
+          "x": 493,
+          "y": 310,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10946,6 +11990,25 @@
           "string": "Options",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Player",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Player",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -11086,6 +12149,120 @@
           "clearBetweenFrames": true
         },
         {
+          "name": "Player2",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Checkbox",
+              "type": "Checkbox::Checkbox",
+              "Checked": false,
+              "PrimaryColor": "136;75;250",
+              "SecondaryColor": "255;255;255",
+              "SideLength": 18,
+              "LineWidth": 5,
+              "HaloRadius": 0,
+              "ToggleChanged": false,
+              "Disabled": false,
+              "BorderThickness": 2,
+              "HaloOpacityHover": 64,
+              "HaloOpacityPressed": 96
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
+        },
+        {
+          "name": "Player1",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Checkbox",
+              "type": "Checkbox::Checkbox",
+              "Checked": false,
+              "PrimaryColor": "136;75;250",
+              "SecondaryColor": "255;255;255",
+              "SideLength": 18,
+              "LineWidth": 5,
+              "HaloRadius": 0,
+              "ToggleChanged": false,
+              "Disabled": false,
+              "BorderThickness": 2,
+              "HaloOpacityHover": 64,
+              "HaloOpacityPressed": 96
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
+        },
+        {
+          "name": "Player0",
+          "tags": "",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Checkbox",
+              "type": "Checkbox::Checkbox",
+              "Checked": false,
+              "PrimaryColor": "136;75;250",
+              "SecondaryColor": "255;255;255",
+              "SideLength": 18,
+              "LineWidth": 5,
+              "HaloRadius": 0,
+              "ToggleChanged": false,
+              "Disabled": false,
+              "BorderThickness": 2,
+              "HaloOpacityHover": 64,
+              "HaloOpacityPressed": 96
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true
+        },
+        {
           "name": "AllLevelsBool",
           "tags": "",
           "type": "PrimitiveDrawing::Drawer",
@@ -11254,6 +12431,25 @@
         {
           "bold": false,
           "italic": false,
+          "name": "PlayerInfo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Male:   Female:   Zombie:\n",
+          "font": "assets\\fonts\\FiraCode-Medium.ttf",
+          "characterSize": 27,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
           "name": "MaxHealth",
           "smoothed": true,
           "tags": "",
@@ -11382,6 +12578,18 @@
                 "DraggableSliderControl",
                 "(GlobalVariable(Options.DifficultyModifier) -0.7) /0.6",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
               ],
               "subInstructions": []
             }
@@ -11563,6 +12771,135 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player1",
+                "Checkbox",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player2",
+                "Checkbox",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -11603,6 +12940,18 @@
                 "Options.Sound",
                 "=",
                 "AudioSlider.DraggableSliderControl::Value() * 100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
               ],
               "subInstructions": []
             }
@@ -11907,6 +13256,486 @@
               },
               "parameters": [
                 "Options.UnlockAllLevels",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Radio",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Player0",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player1",
+                "Checkbox",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player2",
+                "Checkbox",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "Player1",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Player1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player2",
+                "Checkbox",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "Player2",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Player2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player1",
+                "Checkbox",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                "no",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Player0",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "Player1",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Player1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "Player2",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Player2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetChecked"
+              },
+              "parameters": [
+                "Player0",
+                "Checkbox",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.PlayerId",
                 "=",
                 "0"
               ],
@@ -14203,7 +16032,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Skydiving Sam",
       "v": 209,
       "uiSettings": {
@@ -14644,7 +16473,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Skydiving Sam",
       "v": 209,
       "uiSettings": {

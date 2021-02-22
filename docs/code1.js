@@ -128,6 +128,7 @@ gdjs.copyArray(runtimeScene.getObjects("hs_lvl8"), gdjs.LevelSelectCode.GDhs_95l
 }{for(var i = 0, len = gdjs.LevelSelectCode.GDhs_95lvl8Objects1.length ;i < len;++i) {
     gdjs.LevelSelectCode.GDhs_95lvl8Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("8")));
 }
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")));
 }}
 
 }
@@ -489,6 +490,7 @@ if (gdjs.LevelSelectCode.condition2IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(0.6);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(0);
 }}
 
 }
@@ -516,6 +518,7 @@ if (gdjs.LevelSelectCode.condition2IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(1);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(0.8);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(1);
 }}
 
 }
@@ -565,6 +568,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(2);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(1);
 }}
 
 }
@@ -614,6 +618,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(3);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(1.2);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(2);
 }}
 
 }
@@ -663,6 +668,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(4);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(1.4);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(0);
 }}
 
 }
@@ -712,6 +718,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(5);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(1.6);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(1);
 }}
 
 }
@@ -761,6 +768,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(6);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(1.8);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(2);
 }}
 
 }
@@ -810,6 +818,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(7);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(2);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(1);
 }}
 
 }
@@ -859,6 +868,7 @@ if (gdjs.LevelSelectCode.condition3IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(8);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(2.2);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(3);
 }}
 
 }

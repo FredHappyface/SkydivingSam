@@ -2,6 +2,15 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## b_02.22 - 21/02/2021
+- Add multiple characters
+- Animate characters
+- Mobile/ touch prompt with fadeout
+- Added music to levels - continues on win/game-over screen
+- Bugfixes to high-score
+
+TO-DO
+- Add total time played + number of objects to debug screen
 
 ## b_02.21 - 21/02/2021
 - Complete achievements screen

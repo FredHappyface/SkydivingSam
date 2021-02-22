@@ -76,7 +76,9 @@ gdjs.MainMenuCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 if (gdjs.MainMenuCode.condition2IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless").setNumber(1);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level").setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Music").setNumber(0);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Difficulty").setNumber(1.4);
 }}
 
 }
@@ -190,6 +192,7 @@ gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.MainMenuCode.GDHSObjects1);
 {for(var i = 0, len = gdjs.MainMenuCode.GDHSObjects1.length ;i < len;++i) {
     gdjs.MainMenuCode.GDHSObjects1[i].setString("[HS:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("endless")) + "]");
 }
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")));
 }}
 
 }

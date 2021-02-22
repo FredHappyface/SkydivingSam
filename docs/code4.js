@@ -5,6 +5,8 @@ gdjs.OptionsCode.GDBackObjects1= [];
 gdjs.OptionsCode.GDBackObjects2= [];
 gdjs.OptionsCode.GDTitleObjects1= [];
 gdjs.OptionsCode.GDTitleObjects2= [];
+gdjs.OptionsCode.GDPlayerObjects1= [];
+gdjs.OptionsCode.GDPlayerObjects2= [];
 gdjs.OptionsCode.GDDifficultyObjects1= [];
 gdjs.OptionsCode.GDDifficultyObjects2= [];
 gdjs.OptionsCode.GDAudioObjects1= [];
@@ -15,6 +17,12 @@ gdjs.OptionsCode.GDMaxHealthBoolObjects1= [];
 gdjs.OptionsCode.GDMaxHealthBoolObjects2= [];
 gdjs.OptionsCode.GDScoreMultBoolObjects1= [];
 gdjs.OptionsCode.GDScoreMultBoolObjects2= [];
+gdjs.OptionsCode.GDPlayer2Objects1= [];
+gdjs.OptionsCode.GDPlayer2Objects2= [];
+gdjs.OptionsCode.GDPlayer1Objects1= [];
+gdjs.OptionsCode.GDPlayer1Objects2= [];
+gdjs.OptionsCode.GDPlayer0Objects1= [];
+gdjs.OptionsCode.GDPlayer0Objects2= [];
 gdjs.OptionsCode.GDAllLevelsBoolObjects1= [];
 gdjs.OptionsCode.GDAllLevelsBoolObjects2= [];
 gdjs.OptionsCode.GDInvincibleBoolObjects1= [];
@@ -23,6 +31,8 @@ gdjs.OptionsCode.GDDifficultySliderObjects1= [];
 gdjs.OptionsCode.GDDifficultySliderObjects2= [];
 gdjs.OptionsCode.GDAudioSliderObjects1= [];
 gdjs.OptionsCode.GDAudioSliderObjects2= [];
+gdjs.OptionsCode.GDPlayerInfoObjects1= [];
+gdjs.OptionsCode.GDPlayerInfoObjects2= [];
 gdjs.OptionsCode.GDMaxHealthObjects1= [];
 gdjs.OptionsCode.GDMaxHealthObjects2= [];
 gdjs.OptionsCode.GDScoreMultObjects1= [];
@@ -36,13 +46,15 @@ gdjs.OptionsCode.conditionTrue_0 = {val:false};
 gdjs.OptionsCode.condition0IsTrue_0 = {val:false};
 gdjs.OptionsCode.condition1IsTrue_0 = {val:false};
 gdjs.OptionsCode.condition2IsTrue_0 = {val:false};
+gdjs.OptionsCode.condition3IsTrue_0 = {val:false};
 gdjs.OptionsCode.conditionTrue_1 = {val:false};
 gdjs.OptionsCode.condition0IsTrue_1 = {val:false};
 gdjs.OptionsCode.condition1IsTrue_1 = {val:false};
 gdjs.OptionsCode.condition2IsTrue_1 = {val:false};
+gdjs.OptionsCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.OptionsCode.GDBackObjects1});gdjs.OptionsCode.eventsList0 = function(runtimeScene) {
+gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.OptionsCode.GDPlayer0Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects = Hashtable.newFrom({"Player1": gdjs.OptionsCode.GDPlayer1Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects = Hashtable.newFrom({"Player2": gdjs.OptionsCode.GDPlayer2Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.OptionsCode.GDPlayer0Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects = Hashtable.newFrom({"Player1": gdjs.OptionsCode.GDPlayer1Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects = Hashtable.newFrom({"Player2": gdjs.OptionsCode.GDPlayer2Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.OptionsCode.GDBackObjects1});gdjs.OptionsCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -68,6 +80,7 @@ gdjs.copyArray(runtimeScene.getObjects("DifficultySlider"), gdjs.OptionsCode.GDD
 }{for(var i = 0, len = gdjs.OptionsCode.GDDifficultySliderObjects1.length ;i < len;++i) {
     gdjs.OptionsCode.GDDifficultySliderObjects1[i].getBehavior("DraggableSliderControl").SetValue((gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("DifficultyModifier")) - 0.7) / 0.6, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")));
 }}
 
 }
@@ -152,13 +165,82 @@ gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 }if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10177148);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10141556);
 }
 }}
 if (gdjs.OptionsCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("ScoreMultBool"), gdjs.OptionsCode.GDScoreMultBoolObjects1);
 {for(var i = 0, len = gdjs.OptionsCode.GDScoreMultBoolObjects1.length ;i < len;++i) {
     gdjs.OptionsCode.GDScoreMultBoolObjects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId")) == 0;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9016780);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId")) == 1;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8622612);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer1Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId")) == 2;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7944172);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer2Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -188,6 +270,7 @@ for(var i = 0, k = 0, l = gdjs.OptionsCode.GDAudioSliderObjects1.length;i<l;++i)
 gdjs.OptionsCode.GDAudioSliderObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.OptionsCode.GDAudioSliderObjects1 */
 {runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound").setNumber((( gdjs.OptionsCode.GDAudioSliderObjects1.length === 0 ) ? 0 :gdjs.OptionsCode.GDAudioSliderObjects1[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 100);
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")));
 }}
 
 }
@@ -383,6 +466,229 @@ gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = k;}if (gdjs.OptionsCode.condit
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer0Objects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer0Objects1[k] = gdjs.OptionsCode.GDPlayer0Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer0Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer1Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDPlayer2Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer1Objects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer1Objects1[k] = gdjs.OptionsCode.GDPlayer1Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer1Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDPlayer2Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer2Objects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer2Objects1[k] = gdjs.OptionsCode.GDPlayer2Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer2Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer1Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(2);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer0Objects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer0Objects1[k] = gdjs.OptionsCode.GDPlayer0Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer0Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDPlayer0Objects1 */
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer1Objects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer1Objects1[k] = gdjs.OptionsCode.GDPlayer1Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer1Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer2Objects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer2Objects1[k] = gdjs.OptionsCode.GDPlayer2Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer2Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.OptionsCode.GDBackObjects1);
 
 gdjs.OptionsCode.condition0IsTrue_0.val = false;
@@ -411,6 +717,8 @@ gdjs.OptionsCode.GDBackObjects1.length = 0;
 gdjs.OptionsCode.GDBackObjects2.length = 0;
 gdjs.OptionsCode.GDTitleObjects1.length = 0;
 gdjs.OptionsCode.GDTitleObjects2.length = 0;
+gdjs.OptionsCode.GDPlayerObjects1.length = 0;
+gdjs.OptionsCode.GDPlayerObjects2.length = 0;
 gdjs.OptionsCode.GDDifficultyObjects1.length = 0;
 gdjs.OptionsCode.GDDifficultyObjects2.length = 0;
 gdjs.OptionsCode.GDAudioObjects1.length = 0;
@@ -421,6 +729,12 @@ gdjs.OptionsCode.GDMaxHealthBoolObjects1.length = 0;
 gdjs.OptionsCode.GDMaxHealthBoolObjects2.length = 0;
 gdjs.OptionsCode.GDScoreMultBoolObjects1.length = 0;
 gdjs.OptionsCode.GDScoreMultBoolObjects2.length = 0;
+gdjs.OptionsCode.GDPlayer2Objects1.length = 0;
+gdjs.OptionsCode.GDPlayer2Objects2.length = 0;
+gdjs.OptionsCode.GDPlayer1Objects1.length = 0;
+gdjs.OptionsCode.GDPlayer1Objects2.length = 0;
+gdjs.OptionsCode.GDPlayer0Objects1.length = 0;
+gdjs.OptionsCode.GDPlayer0Objects2.length = 0;
 gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = 0;
 gdjs.OptionsCode.GDAllLevelsBoolObjects2.length = 0;
 gdjs.OptionsCode.GDInvincibleBoolObjects1.length = 0;
@@ -429,6 +743,8 @@ gdjs.OptionsCode.GDDifficultySliderObjects1.length = 0;
 gdjs.OptionsCode.GDDifficultySliderObjects2.length = 0;
 gdjs.OptionsCode.GDAudioSliderObjects1.length = 0;
 gdjs.OptionsCode.GDAudioSliderObjects2.length = 0;
+gdjs.OptionsCode.GDPlayerInfoObjects1.length = 0;
+gdjs.OptionsCode.GDPlayerInfoObjects2.length = 0;
 gdjs.OptionsCode.GDMaxHealthObjects1.length = 0;
 gdjs.OptionsCode.GDMaxHealthObjects2.length = 0;
 gdjs.OptionsCode.GDScoreMultObjects1.length = 0;
