@@ -183,7 +183,7 @@ gdjs.MainMenuCode.conditionTrue_1.val = true && gdjs.MainMenuCode.condition0IsTr
 gdjs.MainMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.MainMenuCode.conditionTrue_1 = gdjs.MainMenuCode.condition0IsTrue_0;
-gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10525836);
+gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10046788);
 }
 }if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.MainMenuCode.GDHSObjects1);

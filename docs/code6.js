@@ -95,7 +95,7 @@ gdjs.GameOverCode.conditionTrue_1.val = true && gdjs.GameOverCode.condition0IsTr
 gdjs.GameOverCode.condition0IsTrue_0.val = false;
 {
 {gdjs.GameOverCode.conditionTrue_1 = gdjs.GameOverCode.condition0IsTrue_0;
-gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10017004);
+gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8485956);
 }
 }if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.GameOverCode.GDHSObjects1);
@@ -105,6 +105,29 @@ gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.GameOverCode.GDScoreObject
 }
 }{for(var i = 0, len = gdjs.GameOverCode.GDHSObjects1.length ;i < len;++i) {
     gdjs.GameOverCode.GDHSObjects1[i].setString("Highscore: " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")))));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.GameOverCode.condition0IsTrue_0.val = false;
+gdjs.GameOverCode.condition1IsTrue_0.val = false;
+{
+gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Endless")) > 0;
+}if ( gdjs.GameOverCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameOverCode.conditionTrue_1 = gdjs.GameOverCode.condition1IsTrue_0;
+gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9982292);
+}
+}}
+if (gdjs.GameOverCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.GameOverCode.GDHSObjects1);
+{for(var i = 0, len = gdjs.GameOverCode.GDHSObjects1.length ;i < len;++i) {
+    gdjs.GameOverCode.GDHSObjects1[i].setString("Highscore: " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("endless")));
 }
 }}
 

@@ -95,7 +95,7 @@ gdjs.WinCode.conditionTrue_1.val = true && gdjs.WinCode.condition0IsTrue_1.val &
 gdjs.WinCode.condition0IsTrue_0.val = false;
 {
 {gdjs.WinCode.conditionTrue_1 = gdjs.WinCode.condition0IsTrue_0;
-gdjs.WinCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10024540);
+gdjs.WinCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10227156);
 }
 }if (gdjs.WinCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.WinCode.GDHSObjects1);

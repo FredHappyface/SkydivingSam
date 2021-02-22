@@ -2,6 +2,19 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+
+## b_02.21 - 21/02/2021
+- Complete achievements screen
+- Dev option hotkeys
+- Add media controls (use `alt + up/down` keys)
+- Test fade in on achievements screen
+- `TouchLeft` + `TouchRight` optimizations
+- Bugfixes to high-score
+
+TO-DO
+- Add total time played + number of objects to debug screen
+- Mobile/ touch prompt with fadeout
+
 ## b_02.19_u1 - 19/02/2021
 - Bugfix endless set high-score
 - Visual indicator for locked level
