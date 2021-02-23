@@ -1,6 +1,8 @@
 gdjs.CreditsCode = {};
 gdjs.CreditsCode.GDBG_95lvl0Objects1= [];
 gdjs.CreditsCode.GDBG_95lvl0Objects2= [];
+gdjs.CreditsCode.GDFadeInObjects1= [];
+gdjs.CreditsCode.GDFadeInObjects2= [];
 gdjs.CreditsCode.GDBackObjects1= [];
 gdjs.CreditsCode.GDBackObjects2= [];
 gdjs.CreditsCode.GDTitleObjects1= [];
@@ -28,6 +30,19 @@ gdjs.CreditsCode.mapOfGDgdjs_46CreditsCode_46GDBackObjects1Objects = Hashtable.n
 
 {
 
+
+{
+gdjs.copyArray(runtimeScene.getObjects("FadeIn"), gdjs.CreditsCode.GDFadeInObjects1);
+{for(var i = 0, len = gdjs.CreditsCode.GDFadeInObjects1.length ;i < len;++i) {
+    gdjs.CreditsCode.GDFadeInObjects1[i].setOpacity(gdjs.CreditsCode.GDFadeInObjects1[i].getOpacity() - (300 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+}
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.CreditsCode.GDBackObjects1);
 
 gdjs.CreditsCode.condition0IsTrue_0.val = false;
@@ -52,6 +67,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.CreditsCode.GDBG_95lvl0Objects1.length = 0;
 gdjs.CreditsCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.CreditsCode.GDFadeInObjects1.length = 0;
+gdjs.CreditsCode.GDFadeInObjects2.length = 0;
 gdjs.CreditsCode.GDBackObjects1.length = 0;
 gdjs.CreditsCode.GDBackObjects2.length = 0;
 gdjs.CreditsCode.GDTitleObjects1.length = 0;

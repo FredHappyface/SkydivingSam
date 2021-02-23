@@ -1,6 +1,8 @@
 gdjs.GameOverCode = {};
 gdjs.GameOverCode.GDBG_95lvl0Objects1= [];
 gdjs.GameOverCode.GDBG_95lvl0Objects2= [];
+gdjs.GameOverCode.GDFadeInObjects1= [];
+gdjs.GameOverCode.GDFadeInObjects2= [];
 gdjs.GameOverCode.GDWinObjects1= [];
 gdjs.GameOverCode.GDWinObjects2= [];
 gdjs.GameOverCode.GDInstructionsObjects1= [];
@@ -95,7 +97,7 @@ gdjs.GameOverCode.conditionTrue_1.val = true && gdjs.GameOverCode.condition0IsTr
 gdjs.GameOverCode.condition0IsTrue_0.val = false;
 {
 {gdjs.GameOverCode.conditionTrue_1 = gdjs.GameOverCode.condition0IsTrue_0;
-gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8485956);
+gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10953940);
 }
 }if (gdjs.GameOverCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.GameOverCode.GDHSObjects1);
@@ -121,7 +123,7 @@ gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if ( gdjs.GameOverCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameOverCode.conditionTrue_1 = gdjs.GameOverCode.condition1IsTrue_0;
-gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9982292);
+gdjs.GameOverCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10955204);
 }
 }}
 if (gdjs.GameOverCode.condition1IsTrue_0.val) {
@@ -141,6 +143,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.GameOverCode.GDBG_95lvl0Objects1.length = 0;
 gdjs.GameOverCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.GameOverCode.GDFadeInObjects1.length = 0;
+gdjs.GameOverCode.GDFadeInObjects2.length = 0;
 gdjs.GameOverCode.GDWinObjects1.length = 0;
 gdjs.GameOverCode.GDWinObjects2.length = 0;
 gdjs.GameOverCode.GDInstructionsObjects1.length = 0;

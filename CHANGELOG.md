@@ -2,7 +2,17 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
-## b_02.22 - 21/02/2021
+## b_02.23 - 23/02/2021
+- Music tweaks
+- Added music to menus
+- Added animations to pick up (excluding element_x_0)
+- Added sounds to pick up
+- Add total time played + number of objects to debug screen
+- Apply fade-in to each menu -- testing this
+- Clean up objects off the screen
+- Update hit-boxes
+
+## b_02.22 - 22/02/2021
 - Add multiple characters
 - Animate characters
 - Mobile/ touch prompt with fadeout

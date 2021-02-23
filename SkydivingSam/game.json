@@ -950,6 +950,149 @@
         "metadata": "",
         "name": "assets\\music\\music_3.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/explosion/0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\explosion\\0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/explosion/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\explosion\\2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/explosion/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\explosion\\4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/explosion/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\explosion\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/explosion/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\explosion\\8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/explosion/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\explosion\\10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/hearts_explosion/0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\hearts_explosion\\0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/hearts_explosion/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\hearts_explosion\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/hearts_explosion/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\hearts_explosion\\4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/hearts_explosion/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\hearts_explosion\\6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/hearts_explosion/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\hearts_explosion\\10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game/hearts_explosion/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game\\hearts_explosion\\8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/pizz_el_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_el_1.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/pizz_el_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_el_2.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_el_0.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_el_0.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_game_over.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_game_over.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_win.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_win.ogg",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -993,6 +1136,16 @@
           ]
         }
       ]
+    },
+    {
+      "height": 800,
+      "name": "FadeIn",
+      "tags": "",
+      "texture": "assets\\mainmenu\\fade_in_tile.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 800,
+      "variables": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
@@ -1363,6 +1516,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FadeIn",
+          "persistentUuid": "98832cd6-f58e-4be4-bde2-5fe37df041ea",
+          "width": 0,
+          "x": 0,
+          "y": -100,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1551,7 +1720,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(b_02.22)",
+          "string": "(b_02.23)",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 20,
           "color": {
@@ -1620,6 +1789,133 @@
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Init",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HS",
+                "=",
+                "\"[HS:\" + GlobalVariableString(HighScores.endless) +\"]\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "GlobalVariable(Options.Sound)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music_2.mp3",
+                "yes",
+                "20",
+                "0.8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "FadeIn",
+                "-",
+                "300*TimeDelta()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Menu",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2009,48 +2305,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "HS",
-                "=",
-                "\"[HS:\" + GlobalVariableString(HighScores.endless) +\"]\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModGlobalVolume"
-              },
-              "parameters": [
-                "",
-                "=",
-                "GlobalVariable(Options.Sound)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ],
       "layers": [
@@ -2100,7 +2354,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Skydiving Sam",
       "v": 209,
       "uiSettings": {
@@ -2712,6 +2966,22 @@
           "x": 520,
           "y": 420,
           "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FadeIn",
+          "persistentUuid": "39966ad4-4823-46f7-85e4-318b5b81b692",
+          "width": 0,
+          "x": 0,
+          "y": -100,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4185,6 +4455,27 @@
               },
               "parameters": [
                 "locked_lvl8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "FadeIn",
+                "-",
+                "300*TimeDelta()"
               ],
               "subInstructions": []
             }
@@ -5677,6 +5968,10 @@
         {
           "name": "Hits",
           "value": "0"
+        },
+        {
+          "name": "Objects",
+          "value": "0"
         }
       ],
       "instances": [
@@ -5754,7 +6049,7 @@
           "persistentUuid": "e536aff9-4f9a-4a6b-b8f9-fa411ba1a366",
           "width": 0,
           "x": 30,
-          "y": 100,
+          "y": 70,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -5822,7 +6117,7 @@
           "behaviors": [],
           "string": "Text",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
-          "characterSize": 20,
+          "characterSize": 18,
           "color": {
             "b": 0,
             "g": 0,
@@ -5855,7 +6150,7 @@
                   "timeBetweenFrames": 1.5,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\0_fall.png",
                       "points": [],
                       "originPoint": {
@@ -5869,10 +6164,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.10004,
+                            "y": 12.8
+                          },
+                          {
+                            "x": 108.7,
+                            "y": 12.8
+                          },
+                          {
+                            "x": 89.1,
+                            "y": 122.4
+                          },
+                          {
+                            "x": 26.3,
+                            "y": 122.8
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\0_fall_idle.png",
                       "points": [],
                       "originPoint": {
@@ -5886,7 +6200,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.10004,
+                            "y": 12.8
+                          },
+                          {
+                            "x": 108.7,
+                            "y": 12.8
+                          },
+                          {
+                            "x": 89.1,
+                            "y": 122.4
+                          },
+                          {
+                            "x": 26.3,
+                            "y": 122.8
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5901,7 +6234,7 @@
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\0_right.png",
                       "points": [],
                       "originPoint": {
@@ -5915,7 +6248,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.5,
+                            "y": 51.2
+                          },
+                          {
+                            "x": 93.9,
+                            "y": 5.6
+                          },
+                          {
+                            "x": 89.1,
+                            "y": 113.6
+                          },
+                          {
+                            "x": 30.7,
+                            "y": 124.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5940,7 +6292,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl0.png",
                       "points": [],
                       "originPoint": {
@@ -5954,10 +6306,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0.400024,
+                            "y": 22.4
+                          },
+                          {
+                            "x": 94,
+                            "y": 19.2
+                          },
+                          {
+                            "x": 91.6,
+                            "y": 76.8
+                          },
+                          {
+                            "x": 2,
+                            "y": 81.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl0_alt.png",
                       "points": [],
                       "originPoint": {
@@ -5971,7 +6342,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0.400024,
+                            "y": 22.4
+                          },
+                          {
+                            "x": 94,
+                            "y": 19.2
+                          },
+                          {
+                            "x": 91.6,
+                            "y": 76.8
+                          },
+                          {
+                            "x": 2,
+                            "y": 81.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5996,7 +6386,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl0.png",
                       "points": [],
                       "originPoint": {
@@ -6010,10 +6400,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 27.2
+                          },
+                          {
+                            "x": 89.6,
+                            "y": 24
+                          },
+                          {
+                            "x": 83.2,
+                            "y": 82.8
+                          },
+                          {
+                            "x": 33.6,
+                            "y": 93.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl0_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6027,7 +6436,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 27.2
+                          },
+                          {
+                            "x": 89.6,
+                            "y": 24
+                          },
+                          {
+                            "x": 83.2,
+                            "y": 82.8
+                          },
+                          {
+                            "x": 33.6,
+                            "y": 93.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6052,7 +6480,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl1.png",
                       "points": [],
                       "originPoint": {
@@ -6066,10 +6494,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13.6,
+                            "y": 2.4
+                          },
+                          {
+                            "x": 82.8,
+                            "y": 3.6
+                          },
+                          {
+                            "x": 77.2,
+                            "y": 92
+                          },
+                          {
+                            "x": 16.8,
+                            "y": 90.4
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl1_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6083,7 +6530,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13.6,
+                            "y": 2.4
+                          },
+                          {
+                            "x": 82.8,
+                            "y": 3.6
+                          },
+                          {
+                            "x": 77.2,
+                            "y": 92
+                          },
+                          {
+                            "x": 16.8,
+                            "y": 90.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6108,7 +6574,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl1.png",
                       "points": [],
                       "originPoint": {
@@ -6122,10 +6588,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.40002,
+                            "y": 6.80001
+                          },
+                          {
+                            "x": 85.2,
+                            "y": 7.6
+                          },
+                          {
+                            "x": 92,
+                            "y": 86
+                          },
+                          {
+                            "x": 2.40002,
+                            "y": 85.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl1_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6139,7 +6624,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.40002,
+                            "y": 6.80001
+                          },
+                          {
+                            "x": 85.2,
+                            "y": 7.6
+                          },
+                          {
+                            "x": 92,
+                            "y": 86
+                          },
+                          {
+                            "x": 2.40002,
+                            "y": 85.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6164,7 +6668,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl2.png",
                       "points": [],
                       "originPoint": {
@@ -6178,10 +6682,37 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 38.8,
+                            "y": 1
+                          },
+                          {
+                            "x": 87.2,
+                            "y": 9
+                          },
+                          {
+                            "x": 93.2,
+                            "y": 68.6
+                          },
+                          {
+                            "x": 52.4,
+                            "y": 95.4
+                          },
+                          {
+                            "x": 8.79999,
+                            "y": 72.6
+                          },
+                          {
+                            "x": 7.20001,
+                            "y": 23.8
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl2_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6195,7 +6726,34 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 38.8,
+                            "y": 1
+                          },
+                          {
+                            "x": 87.2,
+                            "y": 9
+                          },
+                          {
+                            "x": 93.2,
+                            "y": 68.6
+                          },
+                          {
+                            "x": 52.4,
+                            "y": 95.4
+                          },
+                          {
+                            "x": 8.79999,
+                            "y": 72.6
+                          },
+                          {
+                            "x": 7.20001,
+                            "y": 23.8
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6220,7 +6778,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl2.png",
                       "points": [],
                       "originPoint": {
@@ -6234,10 +6792,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 90.8,
+                            "y": 45.8
+                          },
+                          {
+                            "x": 88.4,
+                            "y": 91
+                          },
+                          {
+                            "x": 1.20001,
+                            "y": 95.4
+                          },
+                          {
+                            "x": 9.20001,
+                            "y": 29.8
+                          },
+                          {
+                            "x": 47.2,
+                            "y": 8.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl2_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6251,7 +6832,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 90.8,
+                            "y": 45.8
+                          },
+                          {
+                            "x": 88.4,
+                            "y": 91
+                          },
+                          {
+                            "x": 1.20001,
+                            "y": 95.4
+                          },
+                          {
+                            "x": 9.20001,
+                            "y": 29.8
+                          },
+                          {
+                            "x": 47.2,
+                            "y": 8.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6276,7 +6880,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl3.png",
                       "points": [],
                       "originPoint": {
@@ -6290,10 +6894,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 15.6
+                          },
+                          {
+                            "x": 93.2,
+                            "y": 56
+                          },
+                          {
+                            "x": 78,
+                            "y": 82.4
+                          },
+                          {
+                            "x": 14,
+                            "y": 80.6
+                          },
+                          {
+                            "x": 0.400024,
+                            "y": 52.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl3_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6307,7 +6934,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 15.6
+                          },
+                          {
+                            "x": 93.2,
+                            "y": 56
+                          },
+                          {
+                            "x": 78,
+                            "y": 82.4
+                          },
+                          {
+                            "x": 14,
+                            "y": 80.6
+                          },
+                          {
+                            "x": 0.400024,
+                            "y": 52.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6332,7 +6982,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl3.png",
                       "points": [],
                       "originPoint": {
@@ -6346,10 +6996,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.6,
+                            "y": 5.6
+                          },
+                          {
+                            "x": 83.2,
+                            "y": 2.4
+                          },
+                          {
+                            "x": 75.2,
+                            "y": 94
+                          },
+                          {
+                            "x": 9.60004,
+                            "y": 94.4
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl3_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6363,7 +7032,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.6,
+                            "y": 5.6
+                          },
+                          {
+                            "x": 83.2,
+                            "y": 2.4
+                          },
+                          {
+                            "x": 75.2,
+                            "y": 94
+                          },
+                          {
+                            "x": 9.60004,
+                            "y": 94.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6388,7 +7076,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl4.png",
                       "points": [],
                       "originPoint": {
@@ -6402,10 +7090,37 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 14.2
+                          },
+                          {
+                            "x": 90,
+                            "y": 18.6
+                          },
+                          {
+                            "x": 95.2,
+                            "y": 64.2
+                          },
+                          {
+                            "x": 56.8,
+                            "y": 87.8
+                          },
+                          {
+                            "x": 3.60004,
+                            "y": 79
+                          },
+                          {
+                            "x": 2,
+                            "y": 28.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl4_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6419,7 +7134,34 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 14.2
+                          },
+                          {
+                            "x": 90,
+                            "y": 18.6
+                          },
+                          {
+                            "x": 95.2,
+                            "y": 64.2
+                          },
+                          {
+                            "x": 56.8,
+                            "y": 87.8
+                          },
+                          {
+                            "x": 3.60004,
+                            "y": 79
+                          },
+                          {
+                            "x": 2,
+                            "y": 28.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6444,7 +7186,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl4.png",
                       "points": [],
                       "originPoint": {
@@ -6458,10 +7200,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2.79999,
+                            "y": 5.2
+                          },
+                          {
+                            "x": 82.4,
+                            "y": 4.4
+                          },
+                          {
+                            "x": 88.4,
+                            "y": 91.2
+                          },
+                          {
+                            "x": 13.2,
+                            "y": 95.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl4_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6475,7 +7236,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2.79999,
+                            "y": 5.2
+                          },
+                          {
+                            "x": 82.4,
+                            "y": 4.4
+                          },
+                          {
+                            "x": 88.4,
+                            "y": 91.2
+                          },
+                          {
+                            "x": 13.2,
+                            "y": 95.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6500,7 +7280,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl5.png",
                       "points": [],
                       "originPoint": {
@@ -6514,10 +7294,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51.2,
+                            "y": 4
+                          },
+                          {
+                            "x": 95.2,
+                            "y": 5.2
+                          },
+                          {
+                            "x": 74,
+                            "y": 61.6
+                          },
+                          {
+                            "x": 0,
+                            "y": 95.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl5_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6531,7 +7330,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51.2,
+                            "y": 4
+                          },
+                          {
+                            "x": 95.2,
+                            "y": 5.2
+                          },
+                          {
+                            "x": 74,
+                            "y": 61.6
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6556,7 +7374,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl5.png",
                       "points": [],
                       "originPoint": {
@@ -6570,10 +7388,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13.2
+                          },
+                          {
+                            "x": 94,
+                            "y": 34.8
+                          },
+                          {
+                            "x": 91.6,
+                            "y": 79.2
+                          },
+                          {
+                            "x": 2.79999,
+                            "y": 76.4
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl5_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6587,7 +7424,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 13.2
+                          },
+                          {
+                            "x": 94,
+                            "y": 34.8
+                          },
+                          {
+                            "x": 91.6,
+                            "y": 79.2
+                          },
+                          {
+                            "x": 2.79999,
+                            "y": 76.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6612,7 +7468,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl6.png",
                       "points": [],
                       "originPoint": {
@@ -6626,10 +7482,37 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.8,
+                            "y": 5.40002
+                          },
+                          {
+                            "x": 87.2,
+                            "y": 21.4
+                          },
+                          {
+                            "x": 93.6,
+                            "y": 74.2
+                          },
+                          {
+                            "x": 51.2,
+                            "y": 93
+                          },
+                          {
+                            "x": 7.60004,
+                            "y": 77.8
+                          },
+                          {
+                            "x": 2.40002,
+                            "y": 26.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl6_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6643,7 +7526,34 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.8,
+                            "y": 5.40002
+                          },
+                          {
+                            "x": 87.2,
+                            "y": 21.4
+                          },
+                          {
+                            "x": 93.6,
+                            "y": 74.2
+                          },
+                          {
+                            "x": 51.2,
+                            "y": 93
+                          },
+                          {
+                            "x": 7.60004,
+                            "y": 77.8
+                          },
+                          {
+                            "x": 2.40002,
+                            "y": 26.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6668,7 +7578,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl6.png",
                       "points": [],
                       "originPoint": {
@@ -6682,10 +7592,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.4,
+                            "y": 3.6
+                          },
+                          {
+                            "x": 95.2,
+                            "y": 34.4
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1.20001,
+                            "y": 86.4
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl6_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6699,7 +7628,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44.4,
+                            "y": 3.6
+                          },
+                          {
+                            "x": 95.2,
+                            "y": 34.4
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 1.20001,
+                            "y": 86.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6724,7 +7672,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl7.png",
                       "points": [],
                       "originPoint": {
@@ -6738,10 +7686,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": -0.199997
+                          },
+                          {
+                            "x": 94.4,
+                            "y": 31
+                          },
+                          {
+                            "x": 70.4,
+                            "y": 95.4
+                          },
+                          {
+                            "x": 4.79999,
+                            "y": 83.4
+                          },
+                          {
+                            "x": 7.20001,
+                            "y": 21
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl7_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6755,7 +7726,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": -0.199997
+                          },
+                          {
+                            "x": 94.4,
+                            "y": 31
+                          },
+                          {
+                            "x": 70.4,
+                            "y": 95.4
+                          },
+                          {
+                            "x": 4.79999,
+                            "y": 83.4
+                          },
+                          {
+                            "x": 7.20001,
+                            "y": 21
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6780,7 +7774,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl7.png",
                       "points": [],
                       "originPoint": {
@@ -6794,10 +7788,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 42.4,
+                            "y": 0.200005
+                          },
+                          {
+                            "x": 94.4,
+                            "y": 22.6
+                          },
+                          {
+                            "x": 80.8,
+                            "y": 85.4
+                          },
+                          {
+                            "x": 7.60004,
+                            "y": 85.4
+                          },
+                          {
+                            "x": 6.40002,
+                            "y": 30.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl7_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6811,7 +7828,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 42.4,
+                            "y": 0.200005
+                          },
+                          {
+                            "x": 94.4,
+                            "y": 22.6
+                          },
+                          {
+                            "x": 80.8,
+                            "y": 85.4
+                          },
+                          {
+                            "x": 7.60004,
+                            "y": 85.4
+                          },
+                          {
+                            "x": 6.40002,
+                            "y": 30.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6836,7 +7876,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl8.png",
                       "points": [],
                       "originPoint": {
@@ -6850,10 +7890,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17.6,
+                            "y": 6.00001
+                          },
+                          {
+                            "x": 71.2,
+                            "y": 7.2
+                          },
+                          {
+                            "x": 84,
+                            "y": 94
+                          },
+                          {
+                            "x": 8.79999,
+                            "y": 91.6
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element0_lvl8_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6867,7 +7926,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17.6,
+                            "y": 6.00001
+                          },
+                          {
+                            "x": 71.2,
+                            "y": 7.2
+                          },
+                          {
+                            "x": 84,
+                            "y": 94
+                          },
+                          {
+                            "x": 8.79999,
+                            "y": 91.6
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6892,7 +7970,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl8.png",
                       "points": [],
                       "originPoint": {
@@ -6906,10 +7984,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.60004,
+                            "y": 5.6
+                          },
+                          {
+                            "x": 94,
+                            "y": 11.2
+                          },
+                          {
+                            "x": 76.4,
+                            "y": 90
+                          },
+                          {
+                            "x": 8,
+                            "y": 75.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\elements\\element1_lvl8_alt.png",
                       "points": [],
                       "originPoint": {
@@ -6923,7 +8020,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.60004,
+                            "y": 5.6
+                          },
+                          {
+                            "x": 94,
+                            "y": 11.2
+                          },
+                          {
+                            "x": 76.4,
+                            "y": 90
+                          },
+                          {
+                            "x": 8,
+                            "y": 75.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7024,7 +8140,7 @@
                   "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\common\\element2.png",
                       "points": [],
                       "originPoint": {
@@ -7038,10 +8154,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 61.6,
+                            "y": 5.8
+                          },
+                          {
+                            "x": 58.4,
+                            "y": 35.4
+                          },
+                          {
+                            "x": 34.8,
+                            "y": 63.2
+                          },
+                          {
+                            "x": 0.400024,
+                            "y": 38.8
+                          },
+                          {
+                            "x": 8,
+                            "y": 5.40002
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\common\\element2_alt.png",
                       "points": [],
                       "originPoint": {
@@ -7055,7 +8194,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 61.6,
+                            "y": 5.8
+                          },
+                          {
+                            "x": 58.4,
+                            "y": 35.4
+                          },
+                          {
+                            "x": 34.8,
+                            "y": 63.2
+                          },
+                          {
+                            "x": 0.400024,
+                            "y": 38.8
+                          },
+                          {
+                            "x": 8,
+                            "y": 5.40002
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7499,7 +8661,7 @@
                   "timeBetweenFrames": 1.5,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\2_fall.png",
                       "points": [],
                       "originPoint": {
@@ -7513,10 +8675,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.29999,
+                            "y": 6.80001
+                          },
+                          {
+                            "x": 111.1,
+                            "y": 10.4
+                          },
+                          {
+                            "x": 91.1,
+                            "y": 122.8
+                          },
+                          {
+                            "x": 27.1,
+                            "y": 120.4
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\2_fall_idle.png",
                       "points": [],
                       "originPoint": {
@@ -7530,7 +8711,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.29999,
+                            "y": 6.80001
+                          },
+                          {
+                            "x": 111.1,
+                            "y": 10.4
+                          },
+                          {
+                            "x": 91.1,
+                            "y": 122.8
+                          },
+                          {
+                            "x": 27.1,
+                            "y": 120.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7545,7 +8745,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\2_right.png",
                       "points": [],
                       "originPoint": {
@@ -7559,7 +8759,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.10004,
+                            "y": 48.8
+                          },
+                          {
+                            "x": 98.3,
+                            "y": 1.6
+                          },
+                          {
+                            "x": 87.1,
+                            "y": 116.4
+                          },
+                          {
+                            "x": 27.9,
+                            "y": 118.8
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7593,7 +8812,7 @@
                   "timeBetweenFrames": 1.5,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\1_fall.png",
                       "points": [],
                       "originPoint": {
@@ -7607,10 +8826,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.90002,
+                            "y": 7.6
+                          },
+                          {
+                            "x": 113.5,
+                            "y": 10
+                          },
+                          {
+                            "x": 85.9,
+                            "y": 116
+                          },
+                          {
+                            "x": 29.9,
+                            "y": 118.4
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\1_fall_idle.png",
                       "points": [],
                       "originPoint": {
@@ -7624,7 +8862,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.90002,
+                            "y": 7.6
+                          },
+                          {
+                            "x": 113.5,
+                            "y": 10
+                          },
+                          {
+                            "x": 85.9,
+                            "y": 116
+                          },
+                          {
+                            "x": 29.9,
+                            "y": 118.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7639,7 +8896,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game\\player\\1_right.png",
                       "points": [],
                       "originPoint": {
@@ -7653,7 +8910,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.10004,
+                            "y": 46.4
+                          },
+                          {
+                            "x": 97.9,
+                            "y": 1.6
+                          },
+                          {
+                            "x": 88.7,
+                            "y": 111.2
+                          },
+                          {
+                            "x": 31.9,
+                            "y": 116.4
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7680,6 +8956,220 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\game\\controls\\prompt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hearts",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\hearts_explosion\\0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\hearts_explosion\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\hearts_explosion\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\hearts_explosion\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\hearts_explosion\\8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Explosion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\explosion\\0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\explosion\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\explosion\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\explosion\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game\\explosion\\8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7956,8 +9446,8 @@
                 "",
                 "assets\\music\\music_0.mp3",
                 "yes",
-                "",
-                ""
+                "50",
+                "0.9"
               ],
               "subInstructions": []
             }
@@ -8000,8 +9490,8 @@
                 "",
                 "assets\\music\\music_1.mp3",
                 "yes",
-                "",
-                ""
+                "50",
+                "0.9"
               ],
               "subInstructions": []
             }
@@ -8044,8 +9534,8 @@
                 "",
                 "assets\\music\\music_2.mp3",
                 "yes",
-                "",
-                ""
+                "50",
+                "1.1"
               ],
               "subInstructions": []
             }
@@ -8088,8 +9578,8 @@
                 "",
                 "assets\\music\\music_3.mp3",
                 "yes",
-                "",
-                ""
+                "50",
+                "1.1"
               ],
               "subInstructions": []
             }
@@ -8606,7 +10096,153 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "UI",
+          "comment": "Count Objects",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Objects",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Good",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Objects",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Bad",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Objects",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Player",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Objects",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Explosion",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Objects",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Hearts",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Objects",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "UI Update",
           "comment2": ""
         },
         {
@@ -8671,7 +10307,7 @@
               "parameters": [
                 "Debug",
                 "=",
-                "\"SCENE\" + NewLine() + \"Score:\" + VariableString(Score) + NewLine() + \"Health:\" + VariableString(Health) + NewLine() + \"Timer:\" + VariableString(Timer) + NewLine() + \"SpawnRoll:\" + VariableString(SpawnRoll) + NewLine() + \"Debug:\" + VariableString(Debug) + NewLine() + \"KeyUp:\" + VariableString(KeyUp) + NewLine() + NewLine() + \"GLOBAL\" + NewLine() + \"HighScores: [0:\" + GlobalVariableString(HighScores.0) + \", 1:\" + GlobalVariableString(HighScores.1) + \", 2:\" + GlobalVariableString(HighScores.2) + \", 3:\" + GlobalVariableString(HighScores.3) + \", 4:\" + GlobalVariableString(HighScores.4) + \", 5:\" + GlobalVariableString(HighScores.5) + \", 6:\" + GlobalVariableString(HighScores.6) + \", 7:\" + GlobalVariableString(HighScores.7) + \", 8:\" + GlobalVariableString(HighScores.8) + \"]\" + NewLine() + \"LevelCompleted: [0:\" + GlobalVariableString(LevelCompleted.0) + \", 1:\" + GlobalVariableString(LevelCompleted.1) + \", 2:\" + GlobalVariableString(LevelCompleted.2) + \", 3:\" + GlobalVariableString(LevelCompleted.3) + \", 4:\" + GlobalVariableString(LevelCompleted.4) + \", 5:\" + GlobalVariableString(LevelCompleted.5) + \", 6:\" + GlobalVariableString(LevelCompleted.6) + \", 7:\" + GlobalVariableString(LevelCompleted.7) + \", 8:\" + GlobalVariableString(LevelCompleted.8) + \"]\" + NewLine() + \"Total: [Hits:\" + GlobalVariableString(Total.Hits) + \", Score:\" + GlobalVariableString(Total.Score) + \", Time:\" + GlobalVariableString(Total.Time) +\"]\" + NewLine() + \"Level: [Hits:\" + GlobalVariableString(Level.Hits) + \", Score:\" + GlobalVariableString(Level.Score) + \", Time:\" + GlobalVariableString(Level.Time) +\"]\" + NewLine() + \"Options: [DiffMod:\" + GlobalVariableString(Options.DifficultyModifier) + \", Health:\" + GlobalVariableString(Options.Health) + \", Invincible:\" + GlobalVariableString(Options.Invincible) + \",\"+ NewLine() + \"ScoreMod:\" + GlobalVariableString(Options.ScoreModifier)  + \", Sound:\" + GlobalVariableString(Options.Sound) + \", Unlocked:\" + GlobalVariableString(Options.UnlockAllLevels) +\"]\" "
+                "\"SCENE\" + NewLine() + \"Score:\" + VariableString(Score) + NewLine() + \"Health:\" + VariableString(Health) + NewLine() + \"Timer:\" + VariableString(Timer) + NewLine() + \"SpawnRoll:\" + VariableString(SpawnRoll) + NewLine() + \"Debug:\" + VariableString(Debug) + NewLine() + \"KeyUp:\" + VariableString(KeyUp) + NewLine() + NewLine() +\n\"GLOBAL\" + NewLine() +\n\"HighScores: [0:\" + GlobalVariableString(HighScores.0) + \", 1:\" + GlobalVariableString(HighScores.1) + \", 2:\" + GlobalVariableString(HighScores.2) + \", 3:\" + GlobalVariableString(HighScores.3) + \", 4:\" + GlobalVariableString(HighScores.4) + \", 5:\" + GlobalVariableString(HighScores.5) + \", 6:\" + GlobalVariableString(HighScores.6) + \", 7:\" + GlobalVariableString(HighScores.7) + \", 8:\" + GlobalVariableString(HighScores.8) + \"]\" + NewLine() +\n\"LevelCompleted: [0:\" + GlobalVariableString(LevelCompleted.0) + \", 1:\" + GlobalVariableString(LevelCompleted.1) + \", 2:\" + GlobalVariableString(LevelCompleted.2) + \", 3:\" + GlobalVariableString(LevelCompleted.3) + \", 4:\" + GlobalVariableString(LevelCompleted.4) + \", 5:\" + GlobalVariableString(LevelCompleted.5) + \", 6:\" + GlobalVariableString(LevelCompleted.6) + \", 7:\" + GlobalVariableString(LevelCompleted.7) + \", 8:\" + GlobalVariableString(LevelCompleted.8) + \"]\" + NewLine() +\n\"Total: [Hits:\" + GlobalVariableString(Total.Hits) + \", Score:\" + GlobalVariableString(Total.Score) + \", Time:\" + GlobalVariableString(Total.Time) +\"]\" + NewLine() +\n\"Level: [Hits:\" + GlobalVariableString(Level.Hits) + \", Score:\" + GlobalVariableString(Level.Score) + \", Time:\" + GlobalVariableString(Level.Time) +\"]\" + NewLine() +\n\"Options: [DiffMod:\" + GlobalVariableString(Options.DifficultyModifier) + \", Health:\" + GlobalVariableString(Options.Health) + \", Invincible:\" + GlobalVariableString(Options.Invincible) + \",\"+ NewLine() + \"PlayerId:\" + GlobalVariableString(Options.PlayerId) + \", ScoreMod:\" + GlobalVariableString(Options.ScoreModifier)  + \", Sound:\" + GlobalVariableString(Options.Sound) + \", Unlocked:\" + GlobalVariableString(Options.UnlockAllLevels) +\"]\" + NewLine() +\n\"LevelState: [Difficulty:\" + GlobalVariableString(LevelState.Difficulty) + \", Endless:\" + GlobalVariableString(LevelState.Endless) + \", Level:\" + GlobalVariableString(LevelState.Level) + \", Music:\" + GlobalVariableString(LevelState.Music) + \"]\" + NewLine()\n+\"LevelHits: [High:\" + GlobalVariableString(LevelHits.High) + \", None:\" + GlobalVariableString(LevelHits.None) + \"]\"+ NewLine() + NewLine() +\n\"MISC\"+ NewLine() + \"LastPressedKey:\" + LastPressedKey()+ NewLine() +\n\"CurrentScene:\" + CurrentSceneName()+ NewLine() + \"ObjectsDefaultLayer:\" + VariableString(Objects) + NewLine() + \"FPS:\" + ToString(1/TimeDelta())"
               ],
               "subInstructions": []
             }
@@ -9057,6 +10693,20 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\pizz_el_0.ogg",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -9111,75 +10761,6 @@
               "parameters": [
                 "Health",
                 "-",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"Timer\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Oof\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Bad",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Total.Hits",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Level.Hits",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Hits",
-                "+",
                 "1"
               ],
               "subInstructions": []
@@ -9274,6 +10855,35 @@
                 "Hits",
                 "+",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "Explosion",
+                "\"Explosion\"",
+                "Bad.X() - 32",
+                "Bad.Y() -32",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\pizz_el_1.ogg",
+                "",
+                "50",
+                ""
               ],
               "subInstructions": []
             }
@@ -9377,17 +10987,6 @@
                 "1"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Element2",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -9420,6 +11019,233 @@
               },
               "parameters": [
                 "Element2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "Hearts",
+                "\"Hearts\"",
+                "Element2.X() - 32",
+                "Element2.Y() -32",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\pizz_el_2.ogg",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cleanup",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Hearts"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Hearts",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Explosion"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Explosion",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Element2",
+                "<",
+                "Player.Y() - 150"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Element2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Good",
+                "<",
+                "Player.Y() - 150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "Good",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Good",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Bad",
+                "<",
+                "Player.Y() - 150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Layer"
+              },
+              "parameters": [
+                "Bad",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bad",
                 ""
               ],
               "subInstructions": []
@@ -9612,6 +11438,20 @@
                 "Variable(Score)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\pizz_game_over.ogg",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -9766,7 +11606,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "HighScores[GlobalVariableString(LevelHits.None)]",
+                "LevelHits.None",
                 "=",
                 "1"
               ],
@@ -9853,6 +11693,20 @@
                 "LevelCompleted[GlobalVariableString(LevelState.Level)]",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\audio\\pizz_win.ogg",
+                "",
+                "50",
+                ""
               ],
               "subInstructions": []
             }
@@ -10946,6 +12800,14 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -11052,7 +12914,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Skydiving Sam",
       "v": 209,
       "uiSettings": {
@@ -11227,6 +13089,22 @@
           "x": 305,
           "y": 360,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FadeIn",
+          "persistentUuid": "fdcd85b1-3705-417d-b1ef-1b6c930f6130",
+          "width": 0,
+          "x": 0,
+          "y": -100,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11491,6 +13369,27 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "FadeIn",
+                "-",
+                "300*TimeDelta()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -11581,7 +13480,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Skydiving Sam",
       "v": 209,
       "uiSettings": {
@@ -11932,6 +13831,22 @@
           "x": 493,
           "y": 310,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FadeIn",
+          "persistentUuid": "d07a2314-a41d-40a9-bb8b-9de8c5033266",
+          "width": 0,
+          "x": 0,
+          "y": -100,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12891,6 +14806,27 @@
                 "Checkbox",
                 "yes",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "FadeIn",
+                "-",
+                "300*TimeDelta()"
               ],
               "subInstructions": []
             }
@@ -13862,7 +15798,7 @@
       "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Skydiving Sam",
       "v": 209,
       "uiSettings": {
@@ -15049,16 +16985,6 @@
               ]
             }
           ]
-        },
-        {
-          "height": 800,
-          "name": "FadeIn",
-          "tags": "",
-          "texture": "assets\\mainmenu\\fade_in_tile.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 800,
-          "variables": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -15091,7 +17017,7 @@
               "parameters": [
                 "FadeIn",
                 "-",
-                "255*TimeDelta()"
+                "300*TimeDelta()"
               ],
               "subInstructions": []
             }

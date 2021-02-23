@@ -1,6 +1,8 @@
 gdjs.WinCode = {};
 gdjs.WinCode.GDBG_95lvl0Objects1= [];
 gdjs.WinCode.GDBG_95lvl0Objects2= [];
+gdjs.WinCode.GDFadeInObjects1= [];
+gdjs.WinCode.GDFadeInObjects2= [];
 gdjs.WinCode.GDWinObjects1= [];
 gdjs.WinCode.GDWinObjects2= [];
 gdjs.WinCode.GDInstructionsObjects1= [];
@@ -95,7 +97,7 @@ gdjs.WinCode.conditionTrue_1.val = true && gdjs.WinCode.condition0IsTrue_1.val &
 gdjs.WinCode.condition0IsTrue_0.val = false;
 {
 {gdjs.WinCode.conditionTrue_1 = gdjs.WinCode.condition0IsTrue_0;
-gdjs.WinCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10227156);
+gdjs.WinCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10960380);
 }
 }if (gdjs.WinCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.WinCode.GDHSObjects1);
@@ -118,6 +120,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.WinCode.GDBG_95lvl0Objects1.length = 0;
 gdjs.WinCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.WinCode.GDFadeInObjects1.length = 0;
+gdjs.WinCode.GDFadeInObjects2.length = 0;
 gdjs.WinCode.GDWinObjects1.length = 0;
 gdjs.WinCode.GDWinObjects2.length = 0;
 gdjs.WinCode.GDInstructionsObjects1.length = 0;

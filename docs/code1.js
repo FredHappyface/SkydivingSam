@@ -1,6 +1,8 @@
 gdjs.LevelSelectCode = {};
 gdjs.LevelSelectCode.GDBG_95lvl0Objects1= [];
 gdjs.LevelSelectCode.GDBG_95lvl0Objects2= [];
+gdjs.LevelSelectCode.GDFadeInObjects1= [];
+gdjs.LevelSelectCode.GDFadeInObjects2= [];
 gdjs.LevelSelectCode.GDLevel1Objects1= [];
 gdjs.LevelSelectCode.GDLevel1Objects2= [];
 gdjs.LevelSelectCode.GDLevel2Objects1= [];
@@ -89,7 +91,7 @@ gdjs.LevelSelectCode.mapOfGDgdjs_46LevelSelectCode_46GDBackObjects1Objects = Has
 gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10052972);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10700692);
 }
 }if (gdjs.LevelSelectCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("hs_lvl0"), gdjs.LevelSelectCode.GDhs_95lvl0Objects1);
@@ -141,7 +143,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10056132);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10704076);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -181,7 +183,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10057516);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10705564);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -221,7 +223,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10058940);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10706892);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -261,7 +263,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10060276);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10708252);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -301,7 +303,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10061724);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10709700);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -341,7 +343,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10063052);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10711028);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -381,7 +383,7 @@ gdjs.LevelSelectCode.condition0IsTrue_0.val = false;
 gdjs.LevelSelectCode.condition1IsTrue_0.val = false;
 {
 {gdjs.LevelSelectCode.conditionTrue_1 = gdjs.LevelSelectCode.condition0IsTrue_0;
-gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10064476);
+gdjs.LevelSelectCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10712452);
 }
 }if ( gdjs.LevelSelectCode.condition0IsTrue_0.val ) {
 {
@@ -408,6 +410,19 @@ if (gdjs.LevelSelectCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("locked_lvl8"), gdjs.LevelSelectCode.GDlocked_95lvl8Objects1);
 {for(var i = 0, len = gdjs.LevelSelectCode.GDlocked_95lvl8Objects1.length ;i < len;++i) {
     gdjs.LevelSelectCode.GDlocked_95lvl8Objects1[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("FadeIn"), gdjs.LevelSelectCode.GDFadeInObjects1);
+{for(var i = 0, len = gdjs.LevelSelectCode.GDFadeInObjects1.length ;i < len;++i) {
+    gdjs.LevelSelectCode.GDFadeInObjects1[i].setOpacity(gdjs.LevelSelectCode.GDFadeInObjects1[i].getOpacity() - (300 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }}
 
@@ -881,6 +896,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.LevelSelectCode.GDBG_95lvl0Objects1.length = 0;
 gdjs.LevelSelectCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.LevelSelectCode.GDFadeInObjects1.length = 0;
+gdjs.LevelSelectCode.GDFadeInObjects2.length = 0;
 gdjs.LevelSelectCode.GDLevel1Objects1.length = 0;
 gdjs.LevelSelectCode.GDLevel1Objects2.length = 0;
 gdjs.LevelSelectCode.GDLevel2Objects1.length = 0;

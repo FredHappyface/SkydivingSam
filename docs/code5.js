@@ -1,6 +1,8 @@
 gdjs.AchievementsCode = {};
 gdjs.AchievementsCode.GDBG_95lvl0Objects1= [];
 gdjs.AchievementsCode.GDBG_95lvl0Objects2= [];
+gdjs.AchievementsCode.GDFadeInObjects1= [];
+gdjs.AchievementsCode.GDFadeInObjects2= [];
 gdjs.AchievementsCode.GDBackObjects1= [];
 gdjs.AchievementsCode.GDBackObjects2= [];
 gdjs.AchievementsCode.GDTitleObjects1= [];
@@ -43,8 +45,6 @@ gdjs.AchievementsCode.GDC_956Objects1= [];
 gdjs.AchievementsCode.GDC_956Objects2= [];
 gdjs.AchievementsCode.GDTS_951Objects1= [];
 gdjs.AchievementsCode.GDTS_951Objects2= [];
-gdjs.AchievementsCode.GDFadeInObjects1= [];
-gdjs.AchievementsCode.GDFadeInObjects2= [];
 
 gdjs.AchievementsCode.conditionTrue_0 = {val:false};
 gdjs.AchievementsCode.condition0IsTrue_0 = {val:false};
@@ -87,7 +87,7 @@ gdjs.AchievementsCode.mapOfGDgdjs_46AchievementsCode_46GDBackObjects1Objects = H
 {
 gdjs.copyArray(runtimeScene.getObjects("FadeIn"), gdjs.AchievementsCode.GDFadeInObjects1);
 {for(var i = 0, len = gdjs.AchievementsCode.GDFadeInObjects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDFadeInObjects1[i].setOpacity(gdjs.AchievementsCode.GDFadeInObjects1[i].getOpacity() - (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+    gdjs.AchievementsCode.GDFadeInObjects1[i].setOpacity(gdjs.AchievementsCode.GDFadeInObjects1[i].getOpacity() - (300 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }}
 
@@ -522,6 +522,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.AchievementsCode.GDBG_95lvl0Objects1.length = 0;
 gdjs.AchievementsCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.AchievementsCode.GDFadeInObjects1.length = 0;
+gdjs.AchievementsCode.GDFadeInObjects2.length = 0;
 gdjs.AchievementsCode.GDBackObjects1.length = 0;
 gdjs.AchievementsCode.GDBackObjects2.length = 0;
 gdjs.AchievementsCode.GDTitleObjects1.length = 0;
@@ -564,8 +566,6 @@ gdjs.AchievementsCode.GDC_956Objects1.length = 0;
 gdjs.AchievementsCode.GDC_956Objects2.length = 0;
 gdjs.AchievementsCode.GDTS_951Objects1.length = 0;
 gdjs.AchievementsCode.GDTS_951Objects2.length = 0;
-gdjs.AchievementsCode.GDFadeInObjects1.length = 0;
-gdjs.AchievementsCode.GDFadeInObjects2.length = 0;
 
 gdjs.AchievementsCode.eventsList0(runtimeScene);
 return;
