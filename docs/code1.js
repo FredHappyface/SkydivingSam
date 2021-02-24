@@ -47,7 +47,7 @@ gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDLevelsObjects1Objects = Hashtab
 gdjs.MainMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.MainMenuCode.conditionTrue_1 = gdjs.MainMenuCode.condition0IsTrue_0;
-gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7166420);
+gdjs.MainMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11175876);
 }
 }if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("HS"), gdjs.MainMenuCode.GDHSObjects1);

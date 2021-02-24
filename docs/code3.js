@@ -428,7 +428,7 @@ if (gdjs.LevelCode.condition1IsTrue_0.val) {
 gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition0IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10757676);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11248804);
 }
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs.LevelCode.GDDebugObjects1);
@@ -557,7 +557,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10761212);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11252300);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -579,7 +579,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10762164);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11253276);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -599,7 +599,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10763116);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11254228);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -619,7 +619,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10764108);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11255220);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -639,7 +639,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10765060);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11256172);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -659,7 +659,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10766012);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11257124);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -681,7 +681,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.hasTouchScreen(
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10766940);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11258052);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -1540,7 +1540,7 @@ for(var i = 0, len = gdjs.LevelCode.GDElement0_95lvl8Objects1.length ;i < len;++
     gdjs.LevelCode.GDElement0_95lvl8Objects1[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Score").add(1);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_el_0.ogg", false, 50, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_el_0.mp3", false, 50, 1);
 }}
 
 }
@@ -1644,7 +1644,7 @@ for(var i = 0, len = gdjs.LevelCode.GDElement1_95lvl8Objects1.length ;i < len;++
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Hits").add(1);
 }{runtimeScene.getVariables().getFromIndex(6).add(1);
 }{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDExplosionObjects1Objects, "Explosion", (( gdjs.LevelCode.GDElement1_95lvl8Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl7Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl6Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl5Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl4Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl3Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDElement1_95lvl0Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl1Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl2Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl3Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl4Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl5Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl6Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl7Objects1[0].getPointX("")) :gdjs.LevelCode.GDElement1_95lvl8Objects1[0].getPointX("")) - 32, (( gdjs.LevelCode.GDElement1_95lvl8Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl7Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl6Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl5Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl4Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl3Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDElement1_95lvl0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDElement1_95lvl0Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl1Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl2Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl3Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl4Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl5Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl6Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl7Objects1[0].getPointY("")) :gdjs.LevelCode.GDElement1_95lvl8Objects1[0].getPointY("")) - 32, "");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_el_1.ogg", false, 50, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_el_1.mp3", false, 50, 1);
 }}
 
 }
@@ -1709,7 +1709,7 @@ gdjs.LevelCode.GDHeartsObjects1.length = 0;
     gdjs.LevelCode.GDElement2Objects1[i].deleteFromScene(runtimeScene);
 }
 }{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDHeartsObjects1Objects, "Hearts", (( gdjs.LevelCode.GDElement2Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDElement2Objects1[0].getPointX("")) - 32, (( gdjs.LevelCode.GDElement2Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDElement2Objects1[0].getPointY("")) - 32, "");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_el_2.ogg", false, 50, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_el_2.mp3", false, 50, 1);
 }}
 
 }
@@ -2231,7 +2231,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }{runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Time").add(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Time").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Score").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)));
-}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_game_over.ogg", false, 50, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_game_over.mp3", false, 50, 1);
 }}
 
 }
@@ -2326,7 +2326,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Time").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Score").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)));
 }{runtimeScene.getGame().getVariables().getFromIndex(5).getChild(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level"))).setNumber(1);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_win.ogg", false, 50, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_win.mp3", false, 50, 1);
 }}
 
 }
@@ -2349,7 +2349,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10805100);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11304156);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2379,7 +2379,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10808588);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11307644);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2402,7 +2402,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10812020);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11311076);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2425,7 +2425,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10815476);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11314532);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2448,7 +2448,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10818956);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11318012);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {

@@ -62,7 +62,7 @@ gdjs.IntroCode.mapOfGDgdjs_46IntroCode_46GDSamObjects1Objects = Hashtable.newFro
 gdjs.IntroCode.condition0IsTrue_0.val = false;
 {
 {gdjs.IntroCode.conditionTrue_1 = gdjs.IntroCode.condition0IsTrue_0;
-gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10079516);
+gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11149188);
 }
 }if (gdjs.IntroCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("TouchPrompt"), gdjs.IntroCode.GDTouchPromptObjects1);
@@ -498,7 +498,7 @@ gdjs.IntroCode.condition0IsTrue_0.val = false;
 {
 gdjs.IntroCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.IntroCode.mapOfGDgdjs_46IntroCode_46GDEndObjects1Objects, gdjs.IntroCode.mapOfGDgdjs_46IntroCode_46GDSamObjects1Objects, false, runtimeScene, false);
 }if (gdjs.IntroCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_win.ogg", false, 50, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\audio\\pizz_win.mp3", false, 50, 1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }}
 

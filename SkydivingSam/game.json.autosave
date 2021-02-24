@@ -1129,6 +1129,41 @@
         "name": "assets\\game\\intro\\adventurer_fall.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/audio/pizz_el_0.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_el_0.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_el_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_el_1.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_el_2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_el_2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_game_over.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_game_over.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/audio/pizz_win.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audio\\pizz_win.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2869,7 +2904,7 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6009760,
           "ambientLightColorR": 100663296,
           "followBaseLayerCamera": false,
@@ -2880,7 +2915,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1701077318,
+          "ambientLightColorB": 1701077376,
           "ambientLightColorG": 0,
           "ambientLightColorR": 10545920,
           "followBaseLayerCamera": false,
@@ -2902,8 +2937,8 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1668640596,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1668640640,
           "ambientLightColorR": 30,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -3301,7 +3336,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(b_02.23)",
+          "string": "(b_02.24)",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 20,
           "color": {
@@ -6381,7 +6416,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "0.8"
+                "0.9"
               ],
               "subInstructions": []
             },
@@ -6520,7 +6555,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "1"
+                "1.2"
               ],
               "subInstructions": []
             },
@@ -6659,7 +6694,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "1.2"
+                "1.5"
               ],
               "subInstructions": []
             },
@@ -6798,7 +6833,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "1.4"
+                "1.8"
               ],
               "subInstructions": []
             },
@@ -6937,7 +6972,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "1.6"
+                "2.1"
               ],
               "subInstructions": []
             },
@@ -7076,7 +7111,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "1.8"
+                "2.4"
               ],
               "subInstructions": []
             },
@@ -7215,7 +7250,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "2"
+                "2.7"
               ],
               "subInstructions": []
             },
@@ -7354,7 +7389,7 @@
               "parameters": [
                 "LevelState.Difficulty",
                 "=",
-                "2.2"
+                "3"
               ],
               "subInstructions": []
             },
@@ -12282,7 +12317,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\pizz_el_0.ogg",
+                "assets\\audio\\pizz_el_0.mp3",
                 "",
                 "50",
                 ""
@@ -12461,7 +12496,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\pizz_el_1.ogg",
+                "assets\\audio\\pizz_el_1.mp3",
                 "",
                 "50",
                 ""
@@ -12626,7 +12661,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\pizz_el_2.ogg",
+                "assets\\audio\\pizz_el_2.mp3",
                 "",
                 "50",
                 ""
@@ -13027,7 +13062,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\pizz_game_over.ogg",
+                "assets\\audio\\pizz_game_over.mp3",
                 "",
                 "50",
                 ""
@@ -13284,7 +13319,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\pizz_win.ogg",
+                "assets\\audio\\pizz_win.mp3",
                 "",
                 "50",
                 ""
