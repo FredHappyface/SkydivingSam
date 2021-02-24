@@ -50,7 +50,10 @@ elements/element0_lvl8.png
 http://clipart-library.com/clipart/352506.htm
 http://clipart-library.com/terms.html
 
+hearts_explosion/*
+http://clipart-library.com/clipart/heart-cliparts-background_14.htm
+http://clipart-library.com/terms.html
 
-
-
-
+intro/floating_island
+https://www.pngfind.com/mpng/oRwRbi_astrorious-discords-house-floating-island-make-transparent-floating/
+"Personal Use Only"

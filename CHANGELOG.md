@@ -2,6 +2,9 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## b_02.24 - 24/02/2021
+- Basic intro
+
 ## b_02.23 - 23/02/2021
 - Music tweaks
 - Added music to menus

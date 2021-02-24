@@ -1,78 +1,62 @@
-gdjs.AchievementsCode = {};
-gdjs.AchievementsCode.GDBG_95lvl0Objects1= [];
-gdjs.AchievementsCode.GDBG_95lvl0Objects2= [];
-gdjs.AchievementsCode.GDFadeInObjects1= [];
-gdjs.AchievementsCode.GDFadeInObjects2= [];
-gdjs.AchievementsCode.GDBackObjects1= [];
-gdjs.AchievementsCode.GDBackObjects2= [];
-gdjs.AchievementsCode.GDTitleObjects1= [];
-gdjs.AchievementsCode.GDTitleObjects2= [];
-gdjs.AchievementsCode.GDAchievementsBoardObjects1= [];
-gdjs.AchievementsCode.GDAchievementsBoardObjects2= [];
-gdjs.AchievementsCode.GDTS_951000Objects1= [];
-gdjs.AchievementsCode.GDTS_951000Objects2= [];
-gdjs.AchievementsCode.GDLH10Objects1= [];
-gdjs.AchievementsCode.GDLH10Objects2= [];
-gdjs.AchievementsCode.GDLH5Objects1= [];
-gdjs.AchievementsCode.GDLH5Objects2= [];
-gdjs.AchievementsCode.GDLNHObjects1= [];
-gdjs.AchievementsCode.GDLNHObjects2= [];
-gdjs.AchievementsCode.GDLS_9520Objects1= [];
-gdjs.AchievementsCode.GDLS_9520Objects2= [];
-gdjs.AchievementsCode.GDLS_9510Objects1= [];
-gdjs.AchievementsCode.GDLS_9510Objects2= [];
-gdjs.AchievementsCode.GDTS_95100Objects1= [];
-gdjs.AchievementsCode.GDTS_95100Objects2= [];
-gdjs.AchievementsCode.GDTH_951000Objects1= [];
-gdjs.AchievementsCode.GDTH_951000Objects2= [];
-gdjs.AchievementsCode.GDTH_95100Objects1= [];
-gdjs.AchievementsCode.GDTH_95100Objects2= [];
-gdjs.AchievementsCode.GDTH_9510Objects1= [];
-gdjs.AchievementsCode.GDTH_9510Objects2= [];
-gdjs.AchievementsCode.GDTH_951Objects1= [];
-gdjs.AchievementsCode.GDTH_951Objects2= [];
-gdjs.AchievementsCode.GDTS_9510000Objects1= [];
-gdjs.AchievementsCode.GDTS_9510000Objects2= [];
-gdjs.AchievementsCode.GDTP_9530Objects1= [];
-gdjs.AchievementsCode.GDTP_9530Objects2= [];
-gdjs.AchievementsCode.GDTP_9510Objects1= [];
-gdjs.AchievementsCode.GDTP_9510Objects2= [];
-gdjs.AchievementsCode.GDTP_951Objects1= [];
-gdjs.AchievementsCode.GDTP_951Objects2= [];
-gdjs.AchievementsCode.GDC_959Objects1= [];
-gdjs.AchievementsCode.GDC_959Objects2= [];
-gdjs.AchievementsCode.GDC_956Objects1= [];
-gdjs.AchievementsCode.GDC_956Objects2= [];
-gdjs.AchievementsCode.GDTS_951Objects1= [];
-gdjs.AchievementsCode.GDTS_951Objects2= [];
+gdjs.OptionsCode = {};
+gdjs.OptionsCode.GDBG_95lvl0Objects1= [];
+gdjs.OptionsCode.GDBG_95lvl0Objects2= [];
+gdjs.OptionsCode.GDFadeInObjects1= [];
+gdjs.OptionsCode.GDFadeInObjects2= [];
+gdjs.OptionsCode.GDBackObjects1= [];
+gdjs.OptionsCode.GDBackObjects2= [];
+gdjs.OptionsCode.GDTitleObjects1= [];
+gdjs.OptionsCode.GDTitleObjects2= [];
+gdjs.OptionsCode.GDPlayerObjects1= [];
+gdjs.OptionsCode.GDPlayerObjects2= [];
+gdjs.OptionsCode.GDDifficultyObjects1= [];
+gdjs.OptionsCode.GDDifficultyObjects2= [];
+gdjs.OptionsCode.GDAudioObjects1= [];
+gdjs.OptionsCode.GDAudioObjects2= [];
+gdjs.OptionsCode.GDDeveloperObjects1= [];
+gdjs.OptionsCode.GDDeveloperObjects2= [];
+gdjs.OptionsCode.GDMaxHealthBoolObjects1= [];
+gdjs.OptionsCode.GDMaxHealthBoolObjects2= [];
+gdjs.OptionsCode.GDScoreMultBoolObjects1= [];
+gdjs.OptionsCode.GDScoreMultBoolObjects2= [];
+gdjs.OptionsCode.GDPlayer2Objects1= [];
+gdjs.OptionsCode.GDPlayer2Objects2= [];
+gdjs.OptionsCode.GDPlayer1Objects1= [];
+gdjs.OptionsCode.GDPlayer1Objects2= [];
+gdjs.OptionsCode.GDPlayer0Objects1= [];
+gdjs.OptionsCode.GDPlayer0Objects2= [];
+gdjs.OptionsCode.GDAllLevelsBoolObjects1= [];
+gdjs.OptionsCode.GDAllLevelsBoolObjects2= [];
+gdjs.OptionsCode.GDInvincibleBoolObjects1= [];
+gdjs.OptionsCode.GDInvincibleBoolObjects2= [];
+gdjs.OptionsCode.GDDifficultySliderObjects1= [];
+gdjs.OptionsCode.GDDifficultySliderObjects2= [];
+gdjs.OptionsCode.GDAudioSliderObjects1= [];
+gdjs.OptionsCode.GDAudioSliderObjects2= [];
+gdjs.OptionsCode.GDPlayerInfoObjects1= [];
+gdjs.OptionsCode.GDPlayerInfoObjects2= [];
+gdjs.OptionsCode.GDMaxHealthObjects1= [];
+gdjs.OptionsCode.GDMaxHealthObjects2= [];
+gdjs.OptionsCode.GDScoreMultObjects1= [];
+gdjs.OptionsCode.GDScoreMultObjects2= [];
+gdjs.OptionsCode.GDInvincibleObjects1= [];
+gdjs.OptionsCode.GDInvincibleObjects2= [];
+gdjs.OptionsCode.GDAllLevelsObjects1= [];
+gdjs.OptionsCode.GDAllLevelsObjects2= [];
 
-gdjs.AchievementsCode.conditionTrue_0 = {val:false};
-gdjs.AchievementsCode.condition0IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition1IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition2IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition3IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition4IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition5IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition6IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition7IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition8IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition9IsTrue_0 = {val:false};
-gdjs.AchievementsCode.condition10IsTrue_0 = {val:false};
-gdjs.AchievementsCode.conditionTrue_1 = {val:false};
-gdjs.AchievementsCode.condition0IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition1IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition2IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition3IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition4IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition5IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition6IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition7IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition8IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition9IsTrue_1 = {val:false};
-gdjs.AchievementsCode.condition10IsTrue_1 = {val:false};
+gdjs.OptionsCode.conditionTrue_0 = {val:false};
+gdjs.OptionsCode.condition0IsTrue_0 = {val:false};
+gdjs.OptionsCode.condition1IsTrue_0 = {val:false};
+gdjs.OptionsCode.condition2IsTrue_0 = {val:false};
+gdjs.OptionsCode.condition3IsTrue_0 = {val:false};
+gdjs.OptionsCode.conditionTrue_1 = {val:false};
+gdjs.OptionsCode.condition0IsTrue_1 = {val:false};
+gdjs.OptionsCode.condition1IsTrue_1 = {val:false};
+gdjs.OptionsCode.condition2IsTrue_1 = {val:false};
+gdjs.OptionsCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.AchievementsCode.mapOfGDgdjs_46AchievementsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.AchievementsCode.GDBackObjects1});gdjs.AchievementsCode.eventsList0 = function(runtimeScene) {
+gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.OptionsCode.GDPlayer0Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects = Hashtable.newFrom({"Player1": gdjs.OptionsCode.GDPlayer1Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects = Hashtable.newFrom({"Player2": gdjs.OptionsCode.GDPlayer2Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects = Hashtable.newFrom({"Player0": gdjs.OptionsCode.GDPlayer0Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects = Hashtable.newFrom({"Player1": gdjs.OptionsCode.GDPlayer1Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects = Hashtable.newFrom({"Player2": gdjs.OptionsCode.GDPlayer2Objects1});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.OptionsCode.GDBackObjects1});gdjs.OptionsCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -84,10 +68,194 @@ gdjs.AchievementsCode.mapOfGDgdjs_46AchievementsCode_46GDBackObjects1Objects = H
 {
 
 
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("FadeIn"), gdjs.AchievementsCode.GDFadeInObjects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDFadeInObjects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDFadeInObjects1[i].setOpacity(gdjs.AchievementsCode.GDFadeInObjects1[i].getOpacity() - (300 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition0IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10856124);
+}
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("AudioSlider"), gdjs.OptionsCode.GDAudioSliderObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DifficultySlider"), gdjs.OptionsCode.GDDifficultySliderObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDAudioSliderObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDAudioSliderObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDDifficultySliderObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDDifficultySliderObjects1[i].getBehavior("DraggableSliderControl").SetValue((gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("DifficultyModifier")) - 0.7) / 0.6, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")));
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Invincible")) == 1;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10857892);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("InvincibleBool"), gdjs.OptionsCode.GDInvincibleBoolObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDInvincibleBoolObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDInvincibleBoolObjects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Health")) == 30;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10858588);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("MaxHealthBool"), gdjs.OptionsCode.GDMaxHealthBoolObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDMaxHealthBoolObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDMaxHealthBoolObjects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels")) == 1;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10859780);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("AllLevelsBool"), gdjs.OptionsCode.GDAllLevelsBoolObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("ScoreModifier")) == 10;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10860748);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("ScoreMultBool"), gdjs.OptionsCode.GDScoreMultBoolObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDScoreMultBoolObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDScoreMultBoolObjects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId")) == 0;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10861692);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId")) == 1;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10862596);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer1Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId")) == 2;
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+{gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition1IsTrue_0;
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10863500);
+}
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer2Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("FadeIn"), gdjs.OptionsCode.GDFadeInObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDFadeInObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDFadeInObjects1[i].setOpacity(gdjs.OptionsCode.GDFadeInObjects1[i].getOpacity() - (300 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }}
 
@@ -103,413 +271,451 @@ gdjs.copyArray(runtimeScene.getObjects("FadeIn"), gdjs.AchievementsCode.GDFadeIn
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.AchievementsCode.GDBackObjects1);
+gdjs.copyArray(runtimeScene.getObjects("AudioSlider"), gdjs.OptionsCode.GDAudioSliderObjects1);
 
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-gdjs.AchievementsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.AchievementsCode.mapOfGDgdjs_46AchievementsCode_46GDBackObjects1Objects, runtimeScene, true, false);
-}if ( gdjs.AchievementsCode.condition0IsTrue_0.val ) {
-{
-gdjs.AchievementsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDAudioSliderObjects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDAudioSliderObjects1[i].getBehavior("DraggableSliderControl").IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDAudioSliderObjects1[k] = gdjs.OptionsCode.GDAudioSliderObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDAudioSliderObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDAudioSliderObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound").setNumber((( gdjs.OptionsCode.GDAudioSliderObjects1.length === 0 ) ? 0 :gdjs.OptionsCode.GDAudioSliderObjects1[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 100);
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Sound")));
 }}
-if (gdjs.AchievementsCode.condition1IsTrue_0.val) {
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("DifficultySlider"), gdjs.OptionsCode.GDDifficultySliderObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDDifficultySliderObjects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDDifficultySliderObjects1[i].getBehavior("DraggableSliderControl").IsBeingDragged((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDDifficultySliderObjects1[k] = gdjs.OptionsCode.GDDifficultySliderObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDDifficultySliderObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDDifficultySliderObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("DifficultyModifier").setNumber(0.7 + (( gdjs.OptionsCode.GDDifficultySliderObjects1.length === 0 ) ? 0 :gdjs.OptionsCode.GDDifficultySliderObjects1[0].getBehavior("DraggableSliderControl").Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 0.6);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("InvincibleBool"), gdjs.OptionsCode.GDInvincibleBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDInvincibleBoolObjects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDInvincibleBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDInvincibleBoolObjects1[k] = gdjs.OptionsCode.GDInvincibleBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDInvincibleBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Invincible").setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("InvincibleBool"), gdjs.OptionsCode.GDInvincibleBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDInvincibleBoolObjects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDInvincibleBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDInvincibleBoolObjects1[k] = gdjs.OptionsCode.GDInvincibleBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDInvincibleBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Invincible").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("MaxHealthBool"), gdjs.OptionsCode.GDMaxHealthBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDMaxHealthBoolObjects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDMaxHealthBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDMaxHealthBoolObjects1[k] = gdjs.OptionsCode.GDMaxHealthBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDMaxHealthBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Health").setNumber(30);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("MaxHealthBool"), gdjs.OptionsCode.GDMaxHealthBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDMaxHealthBoolObjects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDMaxHealthBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDMaxHealthBoolObjects1[k] = gdjs.OptionsCode.GDMaxHealthBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDMaxHealthBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("Health").setNumber(3);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ScoreMultBool"), gdjs.OptionsCode.GDScoreMultBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDScoreMultBoolObjects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDScoreMultBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDScoreMultBoolObjects1[k] = gdjs.OptionsCode.GDScoreMultBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDScoreMultBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("ScoreModifier").setNumber(10);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ScoreMultBool"), gdjs.OptionsCode.GDScoreMultBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDScoreMultBoolObjects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDScoreMultBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDScoreMultBoolObjects1[k] = gdjs.OptionsCode.GDScoreMultBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDScoreMultBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("ScoreModifier").setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("AllLevelsBool"), gdjs.OptionsCode.GDAllLevelsBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDAllLevelsBoolObjects1[k] = gdjs.OptionsCode.GDAllLevelsBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels").setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("AllLevelsBool"), gdjs.OptionsCode.GDAllLevelsBoolObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDAllLevelsBoolObjects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDAllLevelsBoolObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDAllLevelsBoolObjects1[k] = gdjs.OptionsCode.GDAllLevelsBoolObjects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("UnlockAllLevels").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer0Objects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer0Objects1[k] = gdjs.OptionsCode.GDPlayer0Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer0Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer1Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDPlayer2Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer1Objects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer1Objects1[k] = gdjs.OptionsCode.GDPlayer1Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer1Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDPlayer2Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer2Objects1.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer2Objects1[k] = gdjs.OptionsCode.GDPlayer2Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer2Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer1Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(2);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer0Objects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer0Objects1[k] = gdjs.OptionsCode.GDPlayer0Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer0Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer0Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDPlayer0Objects1 */
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.OptionsCode.GDPlayer1Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer1Objects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDPlayer1Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer1Objects1[k] = gdjs.OptionsCode.GDPlayer1Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer1Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer1Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.OptionsCode.GDPlayer2Objects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+gdjs.OptionsCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDPlayer2Objects1.length;i<l;++i) {
+    if ( !(gdjs.OptionsCode.GDPlayer2Objects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDPlayer2Objects1[k] = gdjs.OptionsCode.GDPlayer2Objects1[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDPlayer2Objects1.length = k;}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition2IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDPlayer2Objects1Objects, runtimeScene, true, false);
+}}
+}
+if (gdjs.OptionsCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Player0"), gdjs.OptionsCode.GDPlayer0Objects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDPlayer0Objects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDPlayer0Objects1[i].getBehavior("Checkbox").SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("PlayerId").setNumber(0);
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.OptionsCode.GDBackObjects1);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+gdjs.OptionsCode.condition1IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDBackObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.OptionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}}
+if (gdjs.OptionsCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Hits")) < 10;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TH_10"), gdjs.AchievementsCode.GDTH_9510Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTH_9510Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTH_9510Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Hits")) < 1;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TH_1"), gdjs.AchievementsCode.GDTH_951Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTH_951Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTH_951Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Hits")) < 100;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TH_100"), gdjs.AchievementsCode.GDTH_95100Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTH_95100Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTH_95100Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Hits")) < 1000;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TH_1000"), gdjs.AchievementsCode.GDTH_951000Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTH_951000Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTH_951000Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Score")) < 1;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TS_1"), gdjs.AchievementsCode.GDTS_951Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTS_951Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTS_951Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Score")) < 100;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TS_100"), gdjs.AchievementsCode.GDTS_95100Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTS_95100Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTS_95100Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Score")) < 1000;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TS_1000"), gdjs.AchievementsCode.GDTS_951000Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTS_951000Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTS_951000Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Score")) < 10000;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TS_10000"), gdjs.AchievementsCode.GDTS_9510000Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTS_9510000Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTS_9510000Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Time")) < 1 * 60;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TP_1"), gdjs.AchievementsCode.GDTP_951Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTP_951Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTP_951Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Time")) < 10 * 60;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TP_10"), gdjs.AchievementsCode.GDTP_9510Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTP_9510Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTP_9510Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Time")) < 30 * 60;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("TP_30"), gdjs.AchievementsCode.GDTP_9530Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDTP_9530Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDTP_9530Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("5")) < 1;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("C_6"), gdjs.AchievementsCode.GDC_956Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDC_956Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDC_956Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5).getChild("8")) < 1;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("C_9"), gdjs.AchievementsCode.GDC_959Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDC_959Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDC_959Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6).getChild("None")) < 1;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("LNH"), gdjs.AchievementsCode.GDLNHObjects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDLNHObjects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDLNHObjects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6).getChild("High")) < 5;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("LH5"), gdjs.AchievementsCode.GDLH5Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDLH5Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDLH5Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6).getChild("High")) < 10;
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("LH10"), gdjs.AchievementsCode.GDLH10Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDLH10Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDLH10Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-{gdjs.AchievementsCode.conditionTrue_1 = gdjs.AchievementsCode.condition0IsTrue_0;
-gdjs.AchievementsCode.condition0IsTrue_1.val = false;
-gdjs.AchievementsCode.condition1IsTrue_1.val = false;
-gdjs.AchievementsCode.condition2IsTrue_1.val = false;
-gdjs.AchievementsCode.condition3IsTrue_1.val = false;
-gdjs.AchievementsCode.condition4IsTrue_1.val = false;
-gdjs.AchievementsCode.condition5IsTrue_1.val = false;
-gdjs.AchievementsCode.condition6IsTrue_1.val = false;
-gdjs.AchievementsCode.condition7IsTrue_1.val = false;
-gdjs.AchievementsCode.condition8IsTrue_1.val = false;
-gdjs.AchievementsCode.condition9IsTrue_1.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("0")) < 10;
-}if ( gdjs.AchievementsCode.condition0IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("1")) < 10;
-}if ( gdjs.AchievementsCode.condition1IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("2")) < 10;
-}if ( gdjs.AchievementsCode.condition2IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("3")) < 10;
-}if ( gdjs.AchievementsCode.condition3IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("4")) < 10;
-}if ( gdjs.AchievementsCode.condition4IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition5IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("5")) < 10;
-}if ( gdjs.AchievementsCode.condition5IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition6IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("6")) < 10;
-}if ( gdjs.AchievementsCode.condition6IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition7IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("7")) < 10;
-}if ( gdjs.AchievementsCode.condition7IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition8IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("8")) < 10;
-}if ( gdjs.AchievementsCode.condition8IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition9IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("endless")) < 10;
-}}
-}
-}
-}
-}
-}
-}
-}
-}
-gdjs.AchievementsCode.conditionTrue_1.val = true && gdjs.AchievementsCode.condition0IsTrue_1.val && gdjs.AchievementsCode.condition1IsTrue_1.val && gdjs.AchievementsCode.condition2IsTrue_1.val && gdjs.AchievementsCode.condition3IsTrue_1.val && gdjs.AchievementsCode.condition4IsTrue_1.val && gdjs.AchievementsCode.condition5IsTrue_1.val && gdjs.AchievementsCode.condition6IsTrue_1.val && gdjs.AchievementsCode.condition7IsTrue_1.val && gdjs.AchievementsCode.condition8IsTrue_1.val && gdjs.AchievementsCode.condition9IsTrue_1.val;
-}
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("LS_10"), gdjs.AchievementsCode.GDLS_9510Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDLS_9510Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDLS_9510Objects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.AchievementsCode.condition0IsTrue_0.val = false;
-{
-{gdjs.AchievementsCode.conditionTrue_1 = gdjs.AchievementsCode.condition0IsTrue_0;
-gdjs.AchievementsCode.condition0IsTrue_1.val = false;
-gdjs.AchievementsCode.condition1IsTrue_1.val = false;
-gdjs.AchievementsCode.condition2IsTrue_1.val = false;
-gdjs.AchievementsCode.condition3IsTrue_1.val = false;
-gdjs.AchievementsCode.condition4IsTrue_1.val = false;
-gdjs.AchievementsCode.condition5IsTrue_1.val = false;
-gdjs.AchievementsCode.condition6IsTrue_1.val = false;
-gdjs.AchievementsCode.condition7IsTrue_1.val = false;
-gdjs.AchievementsCode.condition8IsTrue_1.val = false;
-gdjs.AchievementsCode.condition9IsTrue_1.val = false;
-{
-gdjs.AchievementsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("0")) < 20;
-}if ( gdjs.AchievementsCode.condition0IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("1")) < 20;
-}if ( gdjs.AchievementsCode.condition1IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("2")) < 20;
-}if ( gdjs.AchievementsCode.condition2IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("3")) < 20;
-}if ( gdjs.AchievementsCode.condition3IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("4")) < 20;
-}if ( gdjs.AchievementsCode.condition4IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition5IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("5")) < 20;
-}if ( gdjs.AchievementsCode.condition5IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition6IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("6")) < 20;
-}if ( gdjs.AchievementsCode.condition6IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition7IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("7")) < 20;
-}if ( gdjs.AchievementsCode.condition7IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition8IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("8")) < 20;
-}if ( gdjs.AchievementsCode.condition8IsTrue_1.val ) {
-{
-gdjs.AchievementsCode.condition9IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("endless")) < 20;
-}}
-}
-}
-}
-}
-}
-}
-}
-}
-gdjs.AchievementsCode.conditionTrue_1.val = true && gdjs.AchievementsCode.condition0IsTrue_1.val && gdjs.AchievementsCode.condition1IsTrue_1.val && gdjs.AchievementsCode.condition2IsTrue_1.val && gdjs.AchievementsCode.condition3IsTrue_1.val && gdjs.AchievementsCode.condition4IsTrue_1.val && gdjs.AchievementsCode.condition5IsTrue_1.val && gdjs.AchievementsCode.condition6IsTrue_1.val && gdjs.AchievementsCode.condition7IsTrue_1.val && gdjs.AchievementsCode.condition8IsTrue_1.val && gdjs.AchievementsCode.condition9IsTrue_1.val;
-}
-}if (gdjs.AchievementsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("LS_20"), gdjs.AchievementsCode.GDLS_9520Objects1);
-{for(var i = 0, len = gdjs.AchievementsCode.GDLS_9520Objects1.length ;i < len;++i) {
-    gdjs.AchievementsCode.GDLS_9520Objects1[i].hide();
-}
 }}
 
 }
@@ -517,59 +723,57 @@ gdjs.copyArray(runtimeScene.getObjects("LS_20"), gdjs.AchievementsCode.GDLS_9520
 
 };
 
-gdjs.AchievementsCode.func = function(runtimeScene) {
+gdjs.OptionsCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.AchievementsCode.GDBG_95lvl0Objects1.length = 0;
-gdjs.AchievementsCode.GDBG_95lvl0Objects2.length = 0;
-gdjs.AchievementsCode.GDFadeInObjects1.length = 0;
-gdjs.AchievementsCode.GDFadeInObjects2.length = 0;
-gdjs.AchievementsCode.GDBackObjects1.length = 0;
-gdjs.AchievementsCode.GDBackObjects2.length = 0;
-gdjs.AchievementsCode.GDTitleObjects1.length = 0;
-gdjs.AchievementsCode.GDTitleObjects2.length = 0;
-gdjs.AchievementsCode.GDAchievementsBoardObjects1.length = 0;
-gdjs.AchievementsCode.GDAchievementsBoardObjects2.length = 0;
-gdjs.AchievementsCode.GDTS_951000Objects1.length = 0;
-gdjs.AchievementsCode.GDTS_951000Objects2.length = 0;
-gdjs.AchievementsCode.GDLH10Objects1.length = 0;
-gdjs.AchievementsCode.GDLH10Objects2.length = 0;
-gdjs.AchievementsCode.GDLH5Objects1.length = 0;
-gdjs.AchievementsCode.GDLH5Objects2.length = 0;
-gdjs.AchievementsCode.GDLNHObjects1.length = 0;
-gdjs.AchievementsCode.GDLNHObjects2.length = 0;
-gdjs.AchievementsCode.GDLS_9520Objects1.length = 0;
-gdjs.AchievementsCode.GDLS_9520Objects2.length = 0;
-gdjs.AchievementsCode.GDLS_9510Objects1.length = 0;
-gdjs.AchievementsCode.GDLS_9510Objects2.length = 0;
-gdjs.AchievementsCode.GDTS_95100Objects1.length = 0;
-gdjs.AchievementsCode.GDTS_95100Objects2.length = 0;
-gdjs.AchievementsCode.GDTH_951000Objects1.length = 0;
-gdjs.AchievementsCode.GDTH_951000Objects2.length = 0;
-gdjs.AchievementsCode.GDTH_95100Objects1.length = 0;
-gdjs.AchievementsCode.GDTH_95100Objects2.length = 0;
-gdjs.AchievementsCode.GDTH_9510Objects1.length = 0;
-gdjs.AchievementsCode.GDTH_9510Objects2.length = 0;
-gdjs.AchievementsCode.GDTH_951Objects1.length = 0;
-gdjs.AchievementsCode.GDTH_951Objects2.length = 0;
-gdjs.AchievementsCode.GDTS_9510000Objects1.length = 0;
-gdjs.AchievementsCode.GDTS_9510000Objects2.length = 0;
-gdjs.AchievementsCode.GDTP_9530Objects1.length = 0;
-gdjs.AchievementsCode.GDTP_9530Objects2.length = 0;
-gdjs.AchievementsCode.GDTP_9510Objects1.length = 0;
-gdjs.AchievementsCode.GDTP_9510Objects2.length = 0;
-gdjs.AchievementsCode.GDTP_951Objects1.length = 0;
-gdjs.AchievementsCode.GDTP_951Objects2.length = 0;
-gdjs.AchievementsCode.GDC_959Objects1.length = 0;
-gdjs.AchievementsCode.GDC_959Objects2.length = 0;
-gdjs.AchievementsCode.GDC_956Objects1.length = 0;
-gdjs.AchievementsCode.GDC_956Objects2.length = 0;
-gdjs.AchievementsCode.GDTS_951Objects1.length = 0;
-gdjs.AchievementsCode.GDTS_951Objects2.length = 0;
+gdjs.OptionsCode.GDBG_95lvl0Objects1.length = 0;
+gdjs.OptionsCode.GDBG_95lvl0Objects2.length = 0;
+gdjs.OptionsCode.GDFadeInObjects1.length = 0;
+gdjs.OptionsCode.GDFadeInObjects2.length = 0;
+gdjs.OptionsCode.GDBackObjects1.length = 0;
+gdjs.OptionsCode.GDBackObjects2.length = 0;
+gdjs.OptionsCode.GDTitleObjects1.length = 0;
+gdjs.OptionsCode.GDTitleObjects2.length = 0;
+gdjs.OptionsCode.GDPlayerObjects1.length = 0;
+gdjs.OptionsCode.GDPlayerObjects2.length = 0;
+gdjs.OptionsCode.GDDifficultyObjects1.length = 0;
+gdjs.OptionsCode.GDDifficultyObjects2.length = 0;
+gdjs.OptionsCode.GDAudioObjects1.length = 0;
+gdjs.OptionsCode.GDAudioObjects2.length = 0;
+gdjs.OptionsCode.GDDeveloperObjects1.length = 0;
+gdjs.OptionsCode.GDDeveloperObjects2.length = 0;
+gdjs.OptionsCode.GDMaxHealthBoolObjects1.length = 0;
+gdjs.OptionsCode.GDMaxHealthBoolObjects2.length = 0;
+gdjs.OptionsCode.GDScoreMultBoolObjects1.length = 0;
+gdjs.OptionsCode.GDScoreMultBoolObjects2.length = 0;
+gdjs.OptionsCode.GDPlayer2Objects1.length = 0;
+gdjs.OptionsCode.GDPlayer2Objects2.length = 0;
+gdjs.OptionsCode.GDPlayer1Objects1.length = 0;
+gdjs.OptionsCode.GDPlayer1Objects2.length = 0;
+gdjs.OptionsCode.GDPlayer0Objects1.length = 0;
+gdjs.OptionsCode.GDPlayer0Objects2.length = 0;
+gdjs.OptionsCode.GDAllLevelsBoolObjects1.length = 0;
+gdjs.OptionsCode.GDAllLevelsBoolObjects2.length = 0;
+gdjs.OptionsCode.GDInvincibleBoolObjects1.length = 0;
+gdjs.OptionsCode.GDInvincibleBoolObjects2.length = 0;
+gdjs.OptionsCode.GDDifficultySliderObjects1.length = 0;
+gdjs.OptionsCode.GDDifficultySliderObjects2.length = 0;
+gdjs.OptionsCode.GDAudioSliderObjects1.length = 0;
+gdjs.OptionsCode.GDAudioSliderObjects2.length = 0;
+gdjs.OptionsCode.GDPlayerInfoObjects1.length = 0;
+gdjs.OptionsCode.GDPlayerInfoObjects2.length = 0;
+gdjs.OptionsCode.GDMaxHealthObjects1.length = 0;
+gdjs.OptionsCode.GDMaxHealthObjects2.length = 0;
+gdjs.OptionsCode.GDScoreMultObjects1.length = 0;
+gdjs.OptionsCode.GDScoreMultObjects2.length = 0;
+gdjs.OptionsCode.GDInvincibleObjects1.length = 0;
+gdjs.OptionsCode.GDInvincibleObjects2.length = 0;
+gdjs.OptionsCode.GDAllLevelsObjects1.length = 0;
+gdjs.OptionsCode.GDAllLevelsObjects2.length = 0;
 
-gdjs.AchievementsCode.eventsList0(runtimeScene);
+gdjs.OptionsCode.eventsList0(runtimeScene);
 return;
 
 }
 
-gdjs['AchievementsCode'] = gdjs.AchievementsCode;
+gdjs['OptionsCode'] = gdjs.OptionsCode;
