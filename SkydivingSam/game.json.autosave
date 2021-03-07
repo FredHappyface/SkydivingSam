@@ -135,15 +135,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/mainmenu/title.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\mainmenu\\title.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/levelselect/title.png",
         "kind": "image",
         "metadata": "",
@@ -310,15 +301,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\game\\bg\\bg_lvl0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/game/controls/touch_button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\game\\controls\\touch_button.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -754,15 +736,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/about/logo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\about\\logo.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/about/kenny.png",
         "kind": "image",
         "metadata": "",
@@ -850,15 +823,6 @@
         "name": "assets\\game\\player\\0_right.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/game/player/0_right_alt.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\game\\player\\0_right_alt.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -998,15 +962,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/game/explosion/10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\game\\explosion\\10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/game/hearts_explosion/0.png",
         "kind": "image",
         "metadata": "",
@@ -1043,56 +998,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/game/hearts_explosion/10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\game\\hearts_explosion\\10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/game/hearts_explosion/8.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\game\\hearts_explosion\\8.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "assets/audio/pizz_el_1.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\pizz_el_1.ogg",
-        "userAdded": false
-      },
-      {
-        "file": "assets/audio/pizz_el_2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\pizz_el_2.ogg",
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/pizz_el_0.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\pizz_el_0.ogg",
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/pizz_game_over.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\pizz_game_over.ogg",
-        "userAdded": true
-      },
-      {
-        "file": "assets/audio/pizz_win.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\audio\\pizz_win.ogg",
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -2879,7 +2790,7 @@
               },
               "parameters": [
                 "",
-                "assets\\audio\\pizz_win.ogg",
+                "assets\\audio\\pizz_win.mp3",
                 "",
                 "50",
                 ""
@@ -3336,7 +3247,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(b_02.24)",
+          "string": "(b_02.24_u1)",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 20,
           "color": {
@@ -8019,20 +7930,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 27.2
+                            "x": 65.6,
+                            "y": 21
                           },
                           {
-                            "x": 89.6,
-                            "y": 24
+                            "x": 88,
+                            "y": 40
                           },
                           {
-                            "x": 83.2,
-                            "y": 82.8
+                            "x": 74.8,
+                            "y": 74.8
                           },
                           {
-                            "x": 33.6,
-                            "y": 93.6
+                            "x": 44,
+                            "y": 85.2
+                          },
+                          {
+                            "x": 3.60004,
+                            "y": 31.8
                           }
                         ]
                       ]
@@ -8055,20 +7970,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 27.2
+                            "x": 65.6,
+                            "y": 21
                           },
                           {
-                            "x": 89.6,
-                            "y": 24
+                            "x": 88,
+                            "y": 40
                           },
                           {
-                            "x": 83.2,
-                            "y": 82.8
+                            "x": 74.8,
+                            "y": 74.8
                           },
                           {
-                            "x": 33.6,
-                            "y": 93.6
+                            "x": 44,
+                            "y": 85.2
+                          },
+                          {
+                            "x": 3.60004,
+                            "y": 31.8
                           }
                         ]
                       ]
@@ -12090,7 +12009,7 @@
                 "",
                 "Good",
                 "\"Element0_lvl\" + GlobalVariableString(LevelState.Level)",
-                "RandomInRange(0,536)",
+                "RandomInRange(0,700)",
                 "Player.Y() + 500",
                 "\"\""
               ],
@@ -12160,7 +12079,7 @@
                 "",
                 "Bad",
                 "\"Element1_lvl\" + GlobalVariableString(LevelState.Level)",
-                "RandomInRange(0,536)",
+                "RandomInRange(0,700)",
                 "Player.Y() + 500",
                 "\"\""
               ],
@@ -12218,7 +12137,7 @@
                 "",
                 "Element2",
                 "\"Element2\"",
-                "RandomInRange(0,536)",
+                "RandomInRange(0,700)",
                 "Player.Y() + 500",
                 "\"\""
               ],

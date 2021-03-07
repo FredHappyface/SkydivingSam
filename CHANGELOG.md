@@ -2,6 +2,10 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## b_03.07 - 07/03/2021
+- Fix issue where elements (entities) didn't spawn on the rhs of the screen.
+- Bird hitboxes.
+
 ## b_02.24_u1 - 24/02/2021
 - Bugfix sound on iOS
 - Normalize sounds and music with MP3Gain

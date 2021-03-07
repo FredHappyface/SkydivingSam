@@ -62,7 +62,7 @@ gdjs.IntroCode.mapOfGDgdjs_46IntroCode_46GDSamObjects1Objects = Hashtable.newFro
 gdjs.IntroCode.condition0IsTrue_0.val = false;
 {
 {gdjs.IntroCode.conditionTrue_1 = gdjs.IntroCode.condition0IsTrue_0;
-gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11149188);
+gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11139636);
 }
 }if (gdjs.IntroCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("TouchPrompt"), gdjs.IntroCode.GDTouchPromptObjects1);

@@ -428,7 +428,7 @@ if (gdjs.LevelCode.condition1IsTrue_0.val) {
 gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition0IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11248804);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11239292);
 }
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Debug"), gdjs.LevelCode.GDDebugObjects1);
@@ -557,7 +557,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11252300);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11242788);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -579,7 +579,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11253276);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11243764);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -599,7 +599,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11254228);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11244716);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -619,7 +619,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11255220);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11245708);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -639,7 +639,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11256172);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11246660);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -659,7 +659,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(r
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11257124);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11247612);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -681,7 +681,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.hasTouchScreen(
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11258052);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11248540);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -1400,7 +1400,7 @@ gdjs.LevelCode.GDElement0_95lvl7Objects1.length = 0;
 
 gdjs.LevelCode.GDElement0_95lvl8Objects1.length = 0;
 
-{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects, "Element0_lvl" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")), gdjs.randomInRange(0, 536), (( gdjs.LevelCode.GDPlayer2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDPlayer0Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer1Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer2Objects1[0].getPointY("")) + 500, "");
+{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement0_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement0_9595lvl8Objects1Objects, "Element0_lvl" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")), gdjs.randomInRange(0, 700), (( gdjs.LevelCode.GDPlayer2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDPlayer0Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer1Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer2Objects1[0].getPointY("")) + 500, "");
 }{runtimeScene.getVariables().getFromIndex(2).setNumber(-(1));
 }}
 
@@ -1445,7 +1445,7 @@ gdjs.LevelCode.GDElement1_95lvl7Objects1.length = 0;
 
 gdjs.LevelCode.GDElement1_95lvl8Objects1.length = 0;
 
-{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects, "Element1_lvl" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")), gdjs.randomInRange(0, 536), (( gdjs.LevelCode.GDPlayer2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDPlayer0Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer1Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer2Objects1[0].getPointY("")) + 500, "");
+{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement1_9595lvl0Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl1Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl2Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl3Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl4Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl5Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl6Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl7Objects1ObjectsGDgdjs_46LevelCode_46GDElement1_9595lvl8Objects1Objects, "Element1_lvl" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Level")), gdjs.randomInRange(0, 700), (( gdjs.LevelCode.GDPlayer2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDPlayer0Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer1Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer2Objects1[0].getPointY("")) + 500, "");
 }{runtimeScene.getVariables().getFromIndex(2).setNumber(-(1));
 }}
 
@@ -1469,7 +1469,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player1"), gdjs.LevelCode.GDPlayer1Objec
 gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.LevelCode.GDPlayer2Objects1);
 gdjs.LevelCode.GDElement2Objects1.length = 0;
 
-{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects, "Element2", gdjs.randomInRange(0, 536), (( gdjs.LevelCode.GDPlayer2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDPlayer0Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer1Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer2Objects1[0].getPointY("")) + 500, "");
+{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_46LevelCode_46GDElement2Objects1Objects, "Element2", gdjs.randomInRange(0, 700), (( gdjs.LevelCode.GDPlayer2Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer1Objects1.length === 0 ) ? (( gdjs.LevelCode.GDPlayer0Objects1.length === 0 ) ? 0 :gdjs.LevelCode.GDPlayer0Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer1Objects1[0].getPointY("")) :gdjs.LevelCode.GDPlayer2Objects1[0].getPointY("")) + 500, "");
 }{runtimeScene.getVariables().getFromIndex(2).setNumber(-(1));
 }}
 
@@ -2349,7 +2349,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11304156);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11294644);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2379,7 +2379,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11307644);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11298132);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2402,7 +2402,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11311076);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11301564);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2425,7 +2425,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11314532);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11305020);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -2448,7 +2448,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11318012);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11308500);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {

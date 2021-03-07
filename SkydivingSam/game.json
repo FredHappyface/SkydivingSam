@@ -3247,7 +3247,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "(b_02.24_u1)",
+          "string": "(b_03.07)",
           "font": "assets\\fonts\\FiraCode-Medium.ttf",
           "characterSize": 20,
           "color": {
@@ -7930,20 +7930,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 27.2
+                            "x": 65.6,
+                            "y": 21
                           },
                           {
-                            "x": 89.6,
-                            "y": 24
+                            "x": 88,
+                            "y": 40
                           },
                           {
-                            "x": 83.2,
-                            "y": 82.8
+                            "x": 74.8,
+                            "y": 74.8
                           },
                           {
-                            "x": 33.6,
-                            "y": 93.6
+                            "x": 44,
+                            "y": 85.2
+                          },
+                          {
+                            "x": 3.60004,
+                            "y": 31.8
                           }
                         ]
                       ]
@@ -7966,20 +7970,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 27.2
+                            "x": 65.6,
+                            "y": 21
                           },
                           {
-                            "x": 89.6,
-                            "y": 24
+                            "x": 88,
+                            "y": 40
                           },
                           {
-                            "x": 83.2,
-                            "y": 82.8
+                            "x": 74.8,
+                            "y": 74.8
                           },
                           {
-                            "x": 33.6,
-                            "y": 93.6
+                            "x": 44,
+                            "y": 85.2
+                          },
+                          {
+                            "x": 3.60004,
+                            "y": 31.8
                           }
                         ]
                       ]
@@ -12001,7 +12009,7 @@
                 "",
                 "Good",
                 "\"Element0_lvl\" + GlobalVariableString(LevelState.Level)",
-                "RandomInRange(0,536)",
+                "RandomInRange(0,700)",
                 "Player.Y() + 500",
                 "\"\""
               ],
@@ -12071,7 +12079,7 @@
                 "",
                 "Bad",
                 "\"Element1_lvl\" + GlobalVariableString(LevelState.Level)",
-                "RandomInRange(0,536)",
+                "RandomInRange(0,700)",
                 "Player.Y() + 500",
                 "\"\""
               ],
@@ -12129,7 +12137,7 @@
                 "",
                 "Element2",
                 "\"Element2\"",
-                "RandomInRange(0,536)",
+                "RandomInRange(0,700)",
                 "Player.Y() + 500",
                 "\"\""
               ],
